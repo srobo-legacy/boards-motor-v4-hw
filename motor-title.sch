@@ -1,6 +1,6 @@
 v 20121203 2
 C 40000 40000 0 0 0 title-A1.sym
-T 66300 40800 9 30 1 0 0 0 1
+T 66100 40800 9 30 1 0 0 0 1
 Motor Controller v4
 T 66100 40400 9 10 1 0 0 0 1
 motor-v4-hw.git/motor-logic.sch
