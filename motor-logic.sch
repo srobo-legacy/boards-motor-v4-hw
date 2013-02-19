@@ -723,3 +723,7 @@ refdes=D?
 }
 N 44300 61600 44300 62000 4
 N 44300 60700 44300 60200 4
+T 45500 52700 9 10 1 0 0 0 3
+USB data lines must be routed with 90ohm
+differential impedance. Lengths of the traces
+must be matched to within 1.25mm.
