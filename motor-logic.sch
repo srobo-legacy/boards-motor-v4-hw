@@ -886,3 +886,22 @@ refdes=TP?
 T 69400 61400 5 10 0 0 270 0 1
 device=TESTPOINT
 }
+C 66900 43100 1 270 0 capacitor-np-1.sym
+{
+T 67600 42900 5 10 0 0 270 0 1
+device=CAPACITOR
+T 67400 42700 5 10 1 1 0 0 1
+refdes=C?
+T 67800 42900 5 10 0 0 270 0 1
+symversion=0.1
+T 67400 42500 5 10 1 1 0 0 1
+value=sr-c-100n
+}
+C 67000 41900 1 0 0 gnd-1.sym
+C 67500 43200 1 270 0 test-point.sym
+{
+T 68000 43100 5 10 1 1 0 1 1
+refdes=TP?
+T 68400 42800 5 10 0 0 270 0 1
+device=TESTPOINT
+}
