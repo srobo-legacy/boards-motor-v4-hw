@@ -1112,3 +1112,38 @@ T 55600 54500 9 10 1 0 0 0 3
 If isolation is not required populate
 Rx with a zero ohm link and Rx and
 Rx with 1k resistors
+C 58700 43000 1 90 0 test-point.sym
+{
+T 58200 43100 5 10 1 1 0 7 1
+refdes=TP?
+T 57800 43400 5 10 0 0 90 0 1
+device=TESTPOINT
+}
+C 52500 52600 1 0 0 test-point.sym
+{
+T 52600 53100 5 10 1 1 0 3 1
+refdes=TP?
+T 52900 53500 5 10 0 0 0 0 1
+device=TESTPOINT
+}
+C 52700 52200 1 180 0 test-point.sym
+{
+T 52600 51700 5 10 1 1 0 5 1
+refdes=TP?
+T 52300 51300 5 10 0 0 180 0 1
+device=TESTPOINT
+}
+C 58200 52600 1 0 0 test-point.sym
+{
+T 58600 53500 5 10 0 0 0 0 1
+device=TESTPOINT
+T 58300 53100 5 10 1 1 0 3 1
+refdes=TP?
+}
+C 58400 52200 1 180 0 test-point.sym
+{
+T 58000 51300 5 10 0 0 180 0 1
+device=TESTPOINT
+T 58300 51700 5 10 1 1 0 5 1
+refdes=TP?
+}
