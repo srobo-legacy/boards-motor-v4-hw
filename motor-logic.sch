@@ -855,7 +855,7 @@ refdes=C?
 T 61500 61500 5 10 0 0 270 0 1
 symversion=0.1
 T 61100 61100 5 10 1 1 0 0 1
-value=sr-c-10u
+value=sr-c-10u-1206-16v
 }
 C 62900 61700 1 270 0 capacitor-np-1.sym
 {
