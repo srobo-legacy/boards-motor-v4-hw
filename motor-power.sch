@@ -18,6 +18,8 @@ T 63100 54700 5 10 0 0 0 0 1
 footprint=MultiPowerSO-30.fp
 T 60500 54300 5 10 1 1 0 0 1
 refdes=U?
+T 60500 54100 5 10 1 1 0 0 1
+value=sr-ic-vnh5019
 }
 C 54200 59000 1 0 0 VNH5019A-E-power.sym
 {
@@ -27,6 +29,8 @@ T 56000 63200 5 10 0 0 0 0 1
 footprint=MultiPowerSO-30.fp
 T 54500 62800 5 10 1 1 0 0 1
 refdes=U?
+T 54500 62600 5 10 1 1 0 0 1
+value=sr-ic-vnh5019
 }
 C 60200 42800 1 0 0 VNH5019A-E.sym
 {
@@ -36,6 +40,8 @@ T 63100 48200 5 10 0 0 0 0 1
 footprint=MultiPowerSO-30.fp
 T 60500 47800 5 10 1 1 0 0 1
 refdes=U?
+T 60500 47600 5 10 1 1 0 0 1
+value=sr-ic-vnh5019
 }
 C 63700 59000 1 0 0 VNH5019A-E-power.sym
 {
@@ -45,6 +51,8 @@ T 65500 63200 5 10 0 0 0 0 1
 footprint=MultiPowerSO-30.fp
 T 64000 62800 5 10 1 1 0 0 1
 refdes=U?
+T 64000 62600 5 10 1 1 0 0 1
+value=sr-ic-vnh5019
 }
 C 41000 61300 1 0 0 connector2-1.sym
 {
