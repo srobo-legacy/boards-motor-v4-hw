@@ -821,6 +821,8 @@ T 65300 62300 5 10 1 1 0 0 1
 refdes=U?
 T 65300 62600 5 10 0 0 0 0 1
 footprint=SOT89.fp
+T 65300 62100 5 10 1 1 0 0 1
+value=sr-ic-mcp1703at3302emb
 }
 C 72100 62400 1 0 1 input-1.sym
 {
