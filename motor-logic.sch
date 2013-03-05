@@ -545,6 +545,8 @@ T 61400 60200 5 10 0 0 0 0 1
 footprint=LQFP64_10.fp
 T 59900 59800 5 10 1 1 0 0 1
 refdes=U?
+T 59900 59600 5 10 1 1 0 0 1
+value=sr-ic-stm32f100r6
 }
 C 59700 42400 1 0 0 STM32F100Cx.sym
 {
@@ -554,6 +556,8 @@ T 65300 50800 5 10 0 0 0 0 1
 footprint=LQFP64_10.fp
 T 60000 50400 5 10 1 1 0 0 1
 refdes=U?
+T 60000 50200 5 10 1 1 0 0 1
+value=sr-ic-stm32f100r6
 }
 C 56600 56300 1 0 0 gnd-1.sym
 C 56500 57900 1 0 0 3V3-plus-1.sym
