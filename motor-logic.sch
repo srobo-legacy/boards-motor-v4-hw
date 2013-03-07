@@ -256,6 +256,8 @@ T 45300 47000 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 T 45300 47200 5 10 0 0 0 0 1
 symversion=1
+T 45500 46300 5 10 1 1 0 0 1
+value=sr-fuse-r50-1206
 }
 C 42200 44400 1 0 0 ferrite-bead-1.sym
 {
