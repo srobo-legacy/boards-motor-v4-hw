@@ -1547,3 +1547,14 @@ slot=2
 T 66600 45500 5 10 1 1 0 0 1
 value=sr-led-redblue-dual
 }
+C 46700 55600 1 90 0 zener-1.sym
+{
+T 46100 56000 5 10 0 0 90 0 1
+device=DIODE
+T 46800 56100 5 10 1 1 0 0 1
+refdes=D?
+T 46800 55900 5 10 1 1 0 0 1
+value=sr-d-bzx384c3v3
+}
+C 46400 55300 1 0 0 gnd-1.sym
+C 46300 56500 1 0 0 3V3-plus-1.sym
