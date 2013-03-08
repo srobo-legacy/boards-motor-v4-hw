@@ -81,10 +81,12 @@ value=sr-ic-ft232rq
 }
 C 46300 54800 1 0 0 test-point.sym
 {
-T 46400 55200 5 10 1 1 0 0 1
+T 46400 55300 5 10 1 1 0 3 1
 refdes=TP5
 T 46700 55700 5 10 0 0 0 0 1
 device=TESTPOINT
+T 46300 54800 5 10 0 0 0 0 1
+value=sr-nothing
 }
 C 42100 60600 1 0 0 diode-pair-cc-1.sym
 {
@@ -510,38 +512,48 @@ netname=IFACE_VCC
 N 52300 57700 52300 57900 4
 C 48800 60200 1 0 0 test-point.sym
 {
-T 48900 60600 5 10 1 1 0 0 1
+T 48900 60700 5 10 1 1 0 3 1
 refdes=TP2
 T 49200 61100 5 10 0 0 0 0 1
 device=TESTPOINT
+T 48800 60200 5 10 0 0 0 0 1
+value=sr-nothing
 }
 C 48800 62000 1 0 0 test-point.sym
 {
-T 48900 62400 5 10 1 1 0 0 1
+T 48900 62500 5 10 1 1 0 3 1
 refdes=TP1
 T 49200 62900 5 10 0 0 0 0 1
 device=TESTPOINT
+T 48800 62000 5 10 0 0 0 0 1
+value=sr-nothing
 }
 C 47300 46000 1 0 0 test-point.sym
 {
-T 47400 46400 5 10 1 1 0 0 1
+T 47400 46500 5 10 1 1 0 3 1
 refdes=TP13
 T 47700 46900 5 10 0 0 0 0 1
 device=TESTPOINT
+T 47300 46000 5 10 0 0 0 0 1
+value=sr-nothing
 }
 C 47300 44500 1 0 0 test-point.sym
 {
-T 47400 44900 5 10 1 1 0 0 1
+T 47400 45000 5 10 1 1 0 3 1
 refdes=TP14
 T 47700 45400 5 10 0 0 0 0 1
 device=TESTPOINT
+T 47300 44500 5 10 0 0 0 0 1
+value=sr-nothing
 }
 C 47300 43000 1 0 0 test-point.sym
 {
-T 47400 43400 5 10 1 1 0 0 1
+T 47400 43500 5 10 1 1 0 3 1
 refdes=TP15
 T 47700 43900 5 10 0 0 0 0 1
 device=TESTPOINT
+T 47300 43000 5 10 0 0 0 0 1
+value=sr-nothing
 }
 C 51700 49700 1 270 0 test-point.sym
 {
@@ -549,6 +561,8 @@ T 52200 49600 5 10 1 1 0 1 1
 refdes=TP10
 T 52600 49300 5 10 0 0 270 0 1
 device=TESTPOINT
+T 51700 49700 5 10 0 0 0 0 1
+value=sr-nothing
 }
 C 51700 49500 1 270 0 test-point.sym
 {
@@ -556,6 +570,8 @@ T 52200 49400 5 10 1 1 0 1 1
 refdes=TP11
 T 52600 49100 5 10 0 0 270 0 1
 device=TESTPOINT
+T 51700 49500 5 10 0 0 0 0 1
+value=sr-nothing
 }
 C 51700 49300 1 270 0 test-point.sym
 {
@@ -563,6 +579,8 @@ T 52200 49200 5 10 1 1 0 1 1
 refdes=TP12
 T 52600 48900 5 10 0 0 270 0 1
 device=TESTPOINT
+T 51700 49300 5 10 0 0 0 0 1
+value=sr-nothing
 }
 C 59600 56200 1 0 0 STM32F100Cx-power.sym
 {
@@ -618,6 +636,8 @@ T 69900 61300 5 10 1 1 0 3 1
 refdes=TP4
 T 70200 61700 5 10 0 0 0 0 1
 device=TESTPOINT
+T 69800 60800 5 10 0 0 0 0 1
+value=sr-nothing
 }
 C 62800 57700 1 270 0 capacitor-np-1.sym
 {
@@ -805,7 +825,7 @@ refdes=Y1
 T 68400 44100 5 10 0 0 270 0 1
 symversion=0.1
 T 68000 43800 5 10 1 1 0 0 1
-value=sr-xtal-ABMM2-8.000MHZ-E2-T
+value=sr-xtal-abmm2-8.000mhz-e2-t
 }
 C 66200 43600 1 0 0 resistor-iec-1.sym
 {
@@ -938,6 +958,8 @@ T 69900 62200 5 10 1 1 0 3 1
 refdes=TP3
 T 70200 62600 5 10 0 0 0 0 1
 device=TESTPOINT
+T 69800 61700 5 10 0 0 0 0 1
+value=sr-nothing
 }
 C 66300 43100 1 270 0 capacitor-np-1.sym
 {
@@ -957,6 +979,8 @@ T 67400 43100 5 10 1 1 0 1 1
 refdes=TP17
 T 67800 42800 5 10 0 0 270 0 1
 device=TESTPOINT
+T 66900 43200 5 10 0 0 0 0 1
+value=sr-nothing
 }
 C 51800 42100 1 0 0 capacitor-np-1.sym
 {
@@ -1185,6 +1209,8 @@ T 58200 43100 5 10 1 1 0 7 1
 refdes=TP16
 T 57800 43400 5 10 0 0 90 0 1
 device=TESTPOINT
+T 58700 43000 5 10 0 0 0 0 1
+value=sr-nothing
 }
 C 52500 52600 1 0 0 test-point.sym
 {
@@ -1192,6 +1218,8 @@ T 52600 53100 5 10 1 1 0 3 1
 refdes=TP6
 T 52900 53500 5 10 0 0 0 0 1
 device=TESTPOINT
+T 52500 52600 5 10 0 0 0 0 1
+value=sr-nothing
 }
 C 52700 52200 1 180 0 test-point.sym
 {
@@ -1199,6 +1227,8 @@ T 52600 51700 5 10 1 1 0 5 1
 refdes=TP7
 T 52300 51300 5 10 0 0 180 0 1
 device=TESTPOINT
+T 52700 52200 5 10 0 0 0 0 1
+value=sr-nothing
 }
 C 58400 52600 1 0 0 test-point.sym
 {
@@ -1206,6 +1236,8 @@ T 58800 53500 5 10 0 0 0 0 1
 device=TESTPOINT
 T 58500 53100 5 10 1 1 0 3 1
 refdes=TP8
+T 58400 52600 5 10 0 0 0 0 1
+value=sr-nothing
 }
 C 58600 52200 1 180 0 test-point.sym
 {
@@ -1213,6 +1245,8 @@ T 58200 51300 5 10 0 0 180 0 1
 device=TESTPOINT
 T 58500 51700 5 10 1 1 0 5 1
 refdes=TP9
+T 58600 52200 5 10 0 0 0 0 1
+value=sr-nothing
 }
 N 69700 54500 70700 54500 4
 {
