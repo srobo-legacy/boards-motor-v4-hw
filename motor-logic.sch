@@ -537,24 +537,6 @@ device=TESTPOINT
 T 47300 46000 5 10 0 0 0 0 1
 value=sr-nothing
 }
-C 47300 44500 1 0 0 test-point.sym
-{
-T 47400 45000 5 10 1 1 0 3 1
-refdes=TP14
-T 47700 45400 5 10 0 0 0 0 1
-device=TESTPOINT
-T 47300 44500 5 10 0 0 0 0 1
-value=sr-nothing
-}
-C 47300 43000 1 0 0 test-point.sym
-{
-T 47400 43500 5 10 1 1 0 3 1
-refdes=TP15
-T 47700 43900 5 10 0 0 0 0 1
-device=TESTPOINT
-T 47300 43000 5 10 0 0 0 0 1
-value=sr-nothing
-}
 C 51700 49700 1 270 0 test-point.sym
 {
 T 52200 49600 5 10 1 1 0 1 1
@@ -976,7 +958,7 @@ C 66400 41900 1 0 0 gnd-1.sym
 C 66900 43200 1 270 0 test-point.sym
 {
 T 67400 43100 5 10 1 1 0 1 1
-refdes=TP17
+refdes=TP15
 T 67800 42800 5 10 0 0 270 0 1
 device=TESTPOINT
 T 66900 43200 5 10 0 0 0 0 1
@@ -1206,7 +1188,7 @@ Rx with 1k resistors
 C 58700 43000 1 90 0 test-point.sym
 {
 T 58200 43100 5 10 1 1 0 7 1
-refdes=TP16
+refdes=TP14
 T 57800 43400 5 10 0 0 90 0 1
 device=TESTPOINT
 T 58700 43000 5 10 0 0 0 0 1
