@@ -1604,3 +1604,8 @@ value=sr-d-bzx384c3v3
 }
 C 46400 55300 1 0 0 gnd-1.sym
 C 46300 56500 1 0 0 3V3-plus-1.sym
+T 58500 41700 9 10 1 0 0 0 4
+R39 and R55 chosen to give a full-scale current
+measurement of 21A. The VNH5019 scaled the
+current by a factor of 7000 and the full-scale
+voltage we can measure is 3.3V.

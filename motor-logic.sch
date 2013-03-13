@@ -764,10 +764,9 @@ value=sr-d-mmsz4689t1g
 }
 N 44300 61600 44300 62000 4
 N 44300 60700 44300 60200 4
-T 45500 52700 9 10 1 0 0 0 3
+T 45500 52700 9 10 1 0 0 0 2
 USB data lines must be routed with 90ohm
-differential impedance. Lengths of the traces
-must be matched to within 1.25mm.
+differential impedance.
 C 67900 44600 1 0 0 arm-jtag-10pin.sym
 {
 T 70800 46600 5 10 0 0 0 0 1
@@ -1813,3 +1812,12 @@ N 53500 45400 53000 45400 4
 N 54200 45800 53800 45800 4
 N 53800 45800 53800 45100 4
 N 59500 53300 59500 53400 4
+T 41200 47300 9 10 1 0 0 0 5
+UART_VCC may be between 3.3V and 5V. When UART_VCC is 3.3V the
+FT232R will be out of spec in terms of operation with the internal oscillator.
+However, after testing, it has been determined that the TX output is reliably
+tri-stated with a low supply voltage and the internal oscillator, which is all
+that is required.
+T 57600 41900 9 10 1 0 0 0 2
+Pressing S1 puts the STM32 into its ROM bootloader to allow
+firmware to be loaded over UART1 (either USB or the direct UART interface).
