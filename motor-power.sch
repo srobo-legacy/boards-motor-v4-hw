@@ -1609,3 +1609,45 @@ R39 and R55 chosen to give a full-scale current
 measurement of 21A. The VNH5019 scaled the
 current by a factor of 7000 and the full-scale
 voltage we can measure is 3.3V.
+C 68400 48400 1 0 0 tvs-dual-unidirectional-1.sym
+{
+T 68500 50400 5 10 0 0 0 0 1
+device=TVS_DIODE
+T 69800 49100 5 10 1 1 0 0 1
+refdes=D11
+T 69800 48900 5 10 1 1 0 0 1
+value=sr-d-gsot24c
+}
+C 69000 48100 1 0 0 gnd-1.sym
+N 68700 49500 67200 49500 4
+{
+T 67400 49500 5 10 1 1 0 0 1
+netname=M0OUTbRAW
+}
+N 69500 50000 67200 50000 4
+{
+T 67400 50000 5 10 1 1 0 0 1
+netname=M0OUTaRAW
+}
+N 69500 50000 69500 49500 4
+C 68400 41900 1 0 0 tvs-dual-unidirectional-1.sym
+{
+T 68500 43900 5 10 0 0 0 0 1
+device=TVS_DIODE
+T 69800 42600 5 10 1 1 0 0 1
+refdes=D12
+T 69800 42400 5 10 1 1 0 0 1
+value=sr-d-gsot24c
+}
+C 69000 41600 1 0 0 gnd-1.sym
+N 68700 43000 67200 43000 4
+{
+T 67400 43000 5 10 1 1 0 0 1
+netname=M1OUTbRAW
+}
+N 69500 43500 67200 43500 4
+{
+T 67400 43500 5 10 1 1 0 0 1
+netname=M1OUTaRAW
+}
+N 69500 43500 69500 43000 4
