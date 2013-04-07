@@ -1233,7 +1233,7 @@ device=RESISTOR
 T 66100 51100 5 10 1 1 0 0 1
 refdes=R37
 T 66100 50900 5 10 1 1 0 0 1
-value=sr-r-1k
+value=sr-r-1k-1206
 }
 N 65500 46100 65500 46500 4
 N 66300 46100 66300 46500 4
@@ -1247,7 +1247,7 @@ device=RESISTOR
 T 66100 44600 5 10 1 1 0 0 1
 refdes=R53
 T 66100 44400 5 10 1 1 0 0 1
-value=sr-r-1k
+value=sr-r-1k-1206
 }
 C 45900 58900 1 270 0 resistor-iec-1.sym
 {
@@ -1256,7 +1256,7 @@ device=RESISTOR
 T 46200 58500 5 10 1 1 0 0 1
 refdes=R21
 T 46200 58300 5 10 1 1 0 0 1
-value=sr-r-1k
+value=sr-r-1k-1206
 }
 N 46000 58900 46000 59000 4
 C 45900 57700 1 0 0 gnd-1.sym
