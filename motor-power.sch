@@ -1733,3 +1733,30 @@ When a negative voltage is applied D15 and the second diode in D16
 protect the charge pumps. Q3 is turned on by the first diode in D16 and
 clamps the reverse polarity protection FET (Q2) gate to its source, keeping
 it off. R60 limits the current through the D16 clamping diode.
+C 65200 62000 1 0 0 test-point.sym
+{
+T 65300 62500 5 10 1 1 0 3 1
+refdes=TP39
+T 65600 62900 5 10 0 0 0 0 1
+device=TESTPOINT
+T 65200 62000 5 10 0 0 0 0 1
+value=sr-nothing
+}
+C 65200 61100 1 0 0 test-point.sym
+{
+T 65300 61600 5 10 1 1 0 3 1
+refdes=TP41
+T 65600 62000 5 10 0 0 0 0 1
+device=TESTPOINT
+T 65200 61100 5 10 0 0 0 0 1
+value=sr-nothing
+}
+C 61700 61100 1 0 0 test-point.sym
+{
+T 61800 61600 5 10 1 1 0 3 1
+refdes=TP40
+T 62100 62000 5 10 0 0 0 0 1
+device=TESTPOINT
+T 61700 61100 5 10 0 0 0 0 1
+value=sr-nothing
+}
