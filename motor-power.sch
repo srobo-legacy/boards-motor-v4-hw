@@ -1649,12 +1649,11 @@ refdes=Q3
 T 60300 61000 5 10 1 1 0 0 1
 value=sr-npn-bc846b
 }
-N 60700 62000 56000 62000 4
+N 60200 62000 56000 62000 4
 {
 T 56200 62000 5 10 1 1 0 0 1
 netname=VBATT
 }
-N 61600 62000 65800 62000 4
 C 63800 59900 1 0 0 gnd-1.sym
 N 60200 61600 60200 62000 4
 C 58500 61000 1 0 0 resistor-iec-1.sym
@@ -1677,9 +1676,6 @@ refdes=R58
 T 57200 61400 5 10 1 1 0 0 1
 value=sr-r-10k-0402
 }
-N 56300 58100 56300 59500 4
-N 56300 59500 65800 59500 4
-N 65800 58100 65800 62000 4
 N 56300 57700 56600 57700 4
 N 56600 57700 56600 59100 4
 N 56600 59100 66100 59100 4
@@ -1700,7 +1696,7 @@ C 56700 60200 1 0 0 diode-pair-ca-3.sym
 T 56700 62400 5 10 0 0 0 0 1
 device=DIODE
 T 57400 60700 5 10 1 1 0 0 1
-refdes=D16
+refdes=D15
 T 57400 60500 5 10 1 1 0 0 1
 value=sr-d-bat754a
 }
@@ -1709,43 +1705,25 @@ C 63600 60200 1 0 0 diode-pair-ca-3.sym
 T 63600 62400 5 10 0 0 0 0 1
 device=DIODE
 T 64300 60700 5 10 1 1 0 0 1
-refdes=D16
+refdes=D15
 T 63600 60200 5 10 0 1 0 0 1
 slot=2
 T 64300 60500 5 10 1 1 0 0 1
 value=sr-d-bat754a
 }
-C 60700 62300 1 270 0 diode-pair-cc-3.sym
-{
-T 62900 62300 5 10 0 0 270 0 1
-device=DIODE
-T 60700 62600 5 10 1 1 0 0 1
-refdes=D15
-T 60700 62400 5 10 1 1 0 0 1
-value=sr-d-bat754c
-}
 T 66500 60400 9 10 1 0 0 0 8
-The stuff to the left ensures that negative voltages on VBATT (from reverse
-polarity) do not reach the VNH5019s. The charge pumps in the VNH5019s
-can handle -16V, which isn't enough if -24V is applied.
+The VBATT terminal on the VNH5019 cannot handle more than -16V. So
+the circuit to the left isolates the VNH5019s completely when any negative
+voltage is applied to. This allows up to -24V to be applied without damage.
 
-When a negative voltage is applied D15 and the second diode in D16
-protect the charge pumps. Q3 is turned on by the first diode in D16 and
-clamps the reverse polarity protection FET (Q2) gate to its source, keeping
-it off. R60 limits the current through the D16 clamping diode.
-C 65200 62000 1 0 0 test-point.sym
-{
-T 65300 62500 5 10 1 1 0 3 1
-refdes=TP39
-T 65600 62900 5 10 0 0 0 0 1
-device=TESTPOINT
-T 65200 62000 5 10 0 0 0 0 1
-value=sr-nothing
-}
+When a negative voltage is applied the second diode in D15 protects the
+CP pins. Q3 is turned on by the first diode in D15 and clamps the reverse
+polarity protection FET (Q2) gate to its source, keeping it off. R60 limits
+the current through the D15 clamping diode.
 C 65200 61100 1 0 0 test-point.sym
 {
 T 65300 61600 5 10 1 1 0 3 1
-refdes=TP41
+refdes=TP40
 T 65600 62000 5 10 0 0 0 0 1
 device=TESTPOINT
 T 65200 61100 5 10 0 0 0 0 1
@@ -1754,9 +1732,13 @@ value=sr-nothing
 C 61700 61100 1 0 0 test-point.sym
 {
 T 61800 61600 5 10 1 1 0 3 1
-refdes=TP40
+refdes=TP39
 T 62100 62000 5 10 0 0 0 0 1
 device=TESTPOINT
 T 61700 61100 5 10 0 0 0 0 1
 value=sr-nothing
 }
+N 56300 58100 56800 58100 4
+N 56800 58100 56800 56900 4
+N 65800 58100 66300 58100 4
+N 66300 58100 66300 56900 4
