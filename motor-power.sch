@@ -14,8 +14,6 @@ C 60200 49300 1 0 0 VNH5019A-E.sym
 {
 T 63100 54100 5 10 0 0 0 0 1
 device=VNH5019A-E
-T 63100 54700 5 10 0 0 0 0 1
-footprint=MultiPowerSO-30.fp
 T 60500 54300 5 10 1 1 0 0 1
 refdes=U5
 T 60500 54100 5 10 1 1 0 0 1
@@ -27,8 +25,6 @@ C 54200 55000 1 0 0 VNH5019A-E-power.sym
 {
 T 56000 58600 5 10 0 0 0 0 1
 device=VNH5019A-E
-T 56000 59200 5 10 0 0 0 0 1
-footprint=MultiPowerSO-30.fp
 T 54500 58800 5 10 1 1 0 0 1
 refdes=U5
 T 54500 58600 5 10 1 1 0 0 1
@@ -40,8 +36,6 @@ C 60200 42800 1 0 0 VNH5019A-E.sym
 {
 T 63100 47600 5 10 0 0 0 0 1
 device=VNH5019A-E
-T 63100 48200 5 10 0 0 0 0 1
-footprint=MultiPowerSO-30.fp
 T 60500 47800 5 10 1 1 0 0 1
 refdes=U6
 T 60500 47600 5 10 1 1 0 0 1
@@ -53,8 +47,6 @@ C 63700 55000 1 0 0 VNH5019A-E-power.sym
 {
 T 65500 58600 5 10 0 0 0 0 1
 device=VNH5019A-E
-T 65500 59200 5 10 0 0 0 0 1
-footprint=MultiPowerSO-30.fp
 T 64000 58800 5 10 1 1 0 0 1
 refdes=U6
 T 64000 58600 5 10 1 1 0 0 1
@@ -186,6 +178,8 @@ T 51800 63000 5 10 0 0 0 0 1
 device=TESTPOINT
 T 51400 62100 5 10 0 0 0 0 1
 value=sr-nothing
+T 51400 62100 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 49100 61800 1 270 1 nmos-pqfn-1.sym
 {
@@ -354,6 +348,8 @@ T 70800 51000 5 10 1 1 0 0 1
 refdes=J6
 T 70800 50800 5 10 1 1 0 0 1
 value=sr-cn-camcon2w-5mm
+T 72500 51300 5 10 0 0 0 0 1
+footprint=camcon_50_2_sr.fp
 }
 N 71700 51800 71500 51800 4
 N 71500 51800 71500 53000 4
@@ -387,6 +383,8 @@ T 70800 44500 5 10 1 1 0 0 1
 refdes=J7
 T 70800 44300 5 10 1 1 0 0 1
 value=sr-cn-camcon2w-5mm
+T 72500 44800 5 10 0 0 0 0 1
+footprint=camcon_50_2_sr.fp
 }
 N 71700 45300 71500 45300 4
 N 71500 45300 71500 46500 4
@@ -1445,6 +1443,8 @@ T 48400 63000 5 10 0 0 0 0 1
 device=TESTPOINT
 T 48000 62100 5 10 0 0 0 0 1
 value=sr-nothing
+T 48000 62100 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 43500 56600 1 270 0 test-point.sym
 {
@@ -1454,6 +1454,8 @@ T 44400 56200 5 10 0 0 270 0 1
 device=TESTPOINT
 T 43500 56600 5 10 0 0 0 0 1
 value=sr-nothing
+T 43500 56600 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 43300 54100 1 270 0 test-point.sym
 {
@@ -1463,6 +1465,8 @@ T 44200 53700 5 10 0 0 270 0 1
 device=TESTPOINT
 T 43300 54100 5 10 0 0 0 0 1
 value=sr-nothing
+T 43300 54100 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 43300 53600 1 270 0 test-point.sym
 {
@@ -1472,6 +1476,8 @@ T 44200 53200 5 10 0 0 270 0 1
 device=TESTPOINT
 T 43300 53600 5 10 0 0 0 0 1
 value=sr-nothing
+T 43300 53600 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 43300 53100 1 270 0 test-point.sym
 {
@@ -1481,6 +1487,8 @@ T 43800 53000 5 10 1 1 0 1 1
 refdes=TP21
 T 43300 53100 5 10 0 0 0 0 1
 value=sr-nothing
+T 43300 53100 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 43300 52600 1 270 0 test-point.sym
 {
@@ -1490,6 +1498,8 @@ T 43800 52500 5 10 1 1 0 1 1
 refdes=TP22
 T 43300 52600 5 10 0 0 0 0 1
 value=sr-nothing
+T 43300 52600 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 43300 52100 1 270 0 test-point.sym
 {
@@ -1499,6 +1509,8 @@ T 43800 52000 5 10 1 1 0 1 1
 refdes=TP23
 T 43300 52100 5 10 0 0 0 0 1
 value=sr-nothing
+T 43300 52100 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 43300 51600 1 270 0 test-point.sym
 {
@@ -1508,6 +1520,8 @@ T 43800 51500 5 10 1 1 0 1 1
 refdes=TP24
 T 43300 51600 5 10 0 0 0 0 1
 value=sr-nothing
+T 43300 51600 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 43300 51100 1 270 0 test-point.sym
 {
@@ -1517,6 +1531,8 @@ T 43800 51000 5 10 1 1 0 1 1
 refdes=TP25
 T 43300 51100 5 10 0 0 0 0 1
 value=sr-nothing
+T 43300 51100 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 43300 50600 1 270 0 test-point.sym
 {
@@ -1526,6 +1542,8 @@ T 43800 50500 5 10 1 1 0 1 1
 refdes=TP26
 T 43300 50600 5 10 0 0 0 0 1
 value=sr-nothing
+T 43300 50600 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 43300 47600 1 270 0 test-point.sym
 {
@@ -1535,6 +1553,8 @@ T 43800 47500 5 10 1 1 0 1 1
 refdes=TP29
 T 43300 47600 5 10 0 0 0 0 1
 value=sr-nothing
+T 43300 47600 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 43300 47100 1 270 0 test-point.sym
 {
@@ -1544,6 +1564,8 @@ T 43800 47000 5 10 1 1 0 1 1
 refdes=TP30
 T 43300 47100 5 10 0 0 0 0 1
 value=sr-nothing
+T 43300 47100 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 43300 46600 1 270 0 test-point.sym
 {
@@ -1553,6 +1575,8 @@ T 43800 46500 5 10 1 1 0 1 1
 refdes=TP31
 T 43300 46600 5 10 0 0 0 0 1
 value=sr-nothing
+T 43300 46600 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 43300 46100 1 270 0 test-point.sym
 {
@@ -1562,6 +1586,8 @@ T 43800 46000 5 10 1 1 0 1 1
 refdes=TP32
 T 43300 46100 5 10 0 0 0 0 1
 value=sr-nothing
+T 43300 46100 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 43300 45600 1 270 0 test-point.sym
 {
@@ -1571,6 +1597,8 @@ T 43800 45500 5 10 1 1 0 1 1
 refdes=TP33
 T 43300 45600 5 10 0 0 0 0 1
 value=sr-nothing
+T 43300 45600 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 43300 45100 1 270 0 test-point.sym
 {
@@ -1580,6 +1608,8 @@ T 43800 45000 5 10 1 1 0 1 1
 refdes=TP34
 T 43300 45100 5 10 0 0 0 0 1
 value=sr-nothing
+T 43300 45100 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 43300 44600 1 270 0 test-point.sym
 {
@@ -1589,6 +1619,8 @@ T 43800 44500 5 10 1 1 0 1 1
 refdes=TP35
 T 43300 44600 5 10 0 0 0 0 1
 value=sr-nothing
+T 43300 44600 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 43300 44100 1 270 0 test-point.sym
 {
@@ -1598,6 +1630,8 @@ T 43800 44000 5 10 1 1 0 1 1
 refdes=TP36
 T 43300 44100 5 10 0 0 0 0 1
 value=sr-nothing
+T 43300 44100 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 71400 53000 1 0 0 test-point.sym
 {
@@ -1607,6 +1641,8 @@ T 71800 53900 5 10 0 0 0 0 1
 device=TESTPOINT
 T 71400 53000 5 10 0 0 0 0 1
 value=sr-nothing
+T 71400 53000 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 71400 46500 1 0 0 test-point.sym
 {
@@ -1616,6 +1652,8 @@ T 71800 47400 5 10 0 0 0 0 1
 device=TESTPOINT
 T 71400 46500 5 10 0 0 0 0 1
 value=sr-nothing
+T 71400 46500 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 70700 50600 1 180 0 test-point.sym
 {
@@ -1625,6 +1663,8 @@ T 70300 49700 5 10 0 0 180 0 1
 device=TESTPOINT
 T 70700 50600 5 10 0 0 0 0 1
 value=sr-nothing
+T 70700 50600 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 70700 44100 1 180 0 test-point.sym
 {
@@ -1634,6 +1674,8 @@ T 70300 43200 5 10 0 0 180 0 1
 device=TESTPOINT
 T 70700 44100 5 10 0 0 0 0 1
 value=sr-nothing
+T 70700 44100 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 N 69900 58700 67100 58700 4
 N 67100 58700 67100 56900 4
@@ -1667,8 +1709,6 @@ T 67200 52500 5 10 0 0 270 0 1
 device=LED
 T 65200 52200 5 10 1 1 0 6 1
 refdes=DS8
-T 66800 52500 5 10 0 0 270 0 1
-footprint=dual_led
 T 65200 52000 5 10 1 1 0 6 1
 value=sr-led-redblue-dual
 T 65300 52600 5 10 0 0 0 0 1
@@ -1680,8 +1720,6 @@ T 64600 51800 5 10 0 0 90 0 1
 device=LED
 T 66600 52200 5 10 1 1 0 0 1
 refdes=DS8
-T 65000 51800 5 10 0 0 90 0 1
-footprint=dual_led
 T 65400 51800 5 10 0 0 90 0 1
 slot=2
 T 66600 52000 5 10 1 1 0 0 1
@@ -1695,8 +1733,6 @@ T 67200 46000 5 10 0 0 270 0 1
 device=LED
 T 65200 45700 5 10 1 1 0 6 1
 refdes=DS9
-T 66800 46000 5 10 0 0 270 0 1
-footprint=dual_led
 T 65200 45500 5 10 1 1 0 6 1
 value=sr-led-redblue-dual
 T 65300 46100 5 10 0 0 0 0 1
@@ -1708,8 +1744,6 @@ T 64600 45300 5 10 0 0 90 0 1
 device=LED
 T 66600 45700 5 10 1 1 0 0 1
 refdes=DS9
-T 65000 45300 5 10 0 0 90 0 1
-footprint=dual_led
 T 65400 45300 5 10 0 0 90 0 1
 slot=2
 T 66600 45500 5 10 1 1 0 0 1
@@ -1890,6 +1924,8 @@ T 65600 62000 5 10 0 0 0 0 1
 device=TESTPOINT
 T 65200 61100 5 10 0 0 0 0 1
 value=sr-nothing
+T 65200 61100 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 61700 61100 1 0 0 test-point.sym
 {
@@ -1899,6 +1935,8 @@ T 62100 62000 5 10 0 0 0 0 1
 device=TESTPOINT
 T 61700 61100 5 10 0 0 0 0 1
 value=sr-nothing
+T 61700 61100 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 N 56300 58100 56800 58100 4
 N 56800 58100 56800 56900 4

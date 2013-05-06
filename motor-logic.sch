@@ -16,6 +16,8 @@ T 41000 53300 5 10 1 1 0 0 1
 refdes=J1
 T 41000 53100 5 10 1 1 0 0 1
 value=sr-cn-usb-micro-b
+T 41000 51100 5 10 0 0 0 0 1
+footprint=FCI_10103592_sr.fp
 }
 C 40900 50700 1 270 0 resistor-iec-1.sym
 {
@@ -95,6 +97,8 @@ T 46700 55700 5 10 0 0 0 0 1
 device=TESTPOINT
 T 46300 54800 5 10 0 0 0 0 1
 value=sr-nothing
+T 46300 54800 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 42100 60600 1 0 0 diode-pair-cc-1.sym
 {
@@ -564,6 +568,8 @@ T 49200 61100 5 10 0 0 0 0 1
 device=TESTPOINT
 T 48800 60200 5 10 0 0 0 0 1
 value=sr-nothing
+T 48800 60200 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 48800 62000 1 0 0 test-point.sym
 {
@@ -573,6 +579,8 @@ T 49200 62900 5 10 0 0 0 0 1
 device=TESTPOINT
 T 48800 62000 5 10 0 0 0 0 1
 value=sr-nothing
+T 48800 62000 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 47900 46000 1 0 0 test-point.sym
 {
@@ -582,6 +590,8 @@ T 48300 46900 5 10 0 0 0 0 1
 device=TESTPOINT
 T 47900 46000 5 10 0 0 0 0 1
 value=sr-nothing
+T 47900 46000 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 51700 49700 1 270 0 test-point.sym
 {
@@ -591,6 +601,8 @@ T 52600 49300 5 10 0 0 270 0 1
 device=TESTPOINT
 T 51700 49700 5 10 0 0 0 0 1
 value=sr-nothing
+T 51700 49700 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 51700 49500 1 270 0 test-point.sym
 {
@@ -600,6 +612,8 @@ T 52600 49100 5 10 0 0 270 0 1
 device=TESTPOINT
 T 51700 49500 5 10 0 0 0 0 1
 value=sr-nothing
+T 51700 49500 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 51700 49300 1 270 0 test-point.sym
 {
@@ -609,6 +623,8 @@ T 52600 48900 5 10 0 0 270 0 1
 device=TESTPOINT
 T 51700 49300 5 10 0 0 0 0 1
 value=sr-nothing
+T 51700 49300 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 59600 55800 1 0 0 STM32F100Cx-power.sym
 {
@@ -668,6 +684,8 @@ T 70400 61000 5 10 0 0 0 0 1
 device=TESTPOINT
 T 70000 60100 5 10 0 0 0 0 1
 value=sr-nothing
+T 70000 60100 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 62800 57300 1 270 0 capacitor-np-1.sym
 {
@@ -1009,6 +1027,8 @@ T 70400 62600 5 10 0 0 0 0 1
 device=TESTPOINT
 T 70000 61700 5 10 0 0 0 0 1
 value=sr-nothing
+T 70000 61700 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 66300 42800 1 270 0 capacitor-np-1.sym
 {
@@ -1032,6 +1052,8 @@ T 67800 42800 5 10 0 0 270 0 1
 device=TESTPOINT
 T 66900 43200 5 10 0 0 0 0 1
 value=sr-nothing
+T 66900 43200 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 51800 42100 1 0 0 capacitor-np-1.sym
 {
@@ -1291,6 +1313,8 @@ T 57800 43400 5 10 0 0 90 0 1
 device=TESTPOINT
 T 58700 43000 5 10 0 0 0 0 1
 value=sr-nothing
+T 58700 43000 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 52500 52600 1 0 0 test-point.sym
 {
@@ -1300,6 +1324,8 @@ T 52900 53500 5 10 0 0 0 0 1
 device=TESTPOINT
 T 52500 52600 5 10 0 0 0 0 1
 value=sr-nothing
+T 52500 52600 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 52700 52200 1 180 0 test-point.sym
 {
@@ -1309,6 +1335,8 @@ T 52300 51300 5 10 0 0 180 0 1
 device=TESTPOINT
 T 52700 52200 5 10 0 0 0 0 1
 value=sr-nothing
+T 52700 52200 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 58400 52600 1 0 0 test-point.sym
 {
@@ -1318,6 +1346,8 @@ T 58500 53100 5 10 1 1 0 3 1
 refdes=TP8
 T 58400 52600 5 10 0 0 0 0 1
 value=sr-nothing
+T 58400 52600 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 C 58600 52200 1 180 0 test-point.sym
 {
@@ -1327,6 +1357,8 @@ T 58500 51700 5 10 1 1 0 5 1
 refdes=TP9
 T 58600 52200 5 10 0 0 0 0 1
 value=sr-nothing
+T 58600 52200 5 10 0 0 0 0 1
+footprint=TP_sr.fp
 }
 N 69700 54500 70700 54500 4
 {
