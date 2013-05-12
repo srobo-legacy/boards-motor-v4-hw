@@ -866,7 +866,7 @@ Element["" "0805_split_led_sr.fp" "DS8" "sr-led-redblue-dual" 55.8750mm 18.2500m
 
 	)
 
-Element["" "0805_led_sr.fp" "DS7" "sr-led-redgreen-0805" 37.3000mm 35.3500mm 0.3500mm 0.0000 0 100 ""]
+Element["" "0805_led_sr.fp" "DS7" "sr-led-redgreen-0805" 36.0500mm 35.4000mm 0.3500mm 0.0000 0 100 ""]
 (
 	Attribute("device" "BI_LED")
 	Attribute("manufacturer" "unknown")
@@ -922,7 +922,7 @@ Element["" "0603_sr.fp" "R35" "sr-r-10k" 52.0000mm 19.1000mm 0.0000 0.0000 2 100
 
 	)
 
-Element["" "1206_sr.fp" "R21" "sr-r-1k-1206" 32.1000mm 35.3000mm 0.0000 0.0000 0 100 ""]
+Element["" "1206_sr.fp" "R21" "sr-r-1k-1206" 31.2500mm 35.3500mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1044,7 +1044,7 @@ Element["" "NICHICON_CAP_10_10_sr.fp" "C37" "sr-c-pcf1c221mcl1gs" 44.0000mm 48.0
 
 	)
 
-Element["" "PQFN56B_sr.fp" "Q2" "sr-fet-n-irfh5301" 37.1050mm 39.7400mm 0.0000 0.0000 0 100 ""]
+Element["" "PQFN56B_sr.fp" "Q2" "sr-fet-n-irfh5301" 37.1550mm 39.6400mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "NMOS_TRANSISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1581,7 +1581,7 @@ Element["onsolder" "TP_sr.fp" "TP3" "sr-nothing" 45.7500mm 68.1500mm 0.0000 0.00
 
 	)
 
-Element["" "header_127_10w_sr.fp" "J4" "sr-cn-header2x5-1.27mm" 11.6300mm 71.7700mm 0.0000 0.0000 1 100 ""]
+Element["" "header_127_10w_sr.fp" "J4" "sr-cn-header2x5-1.27mm" 13.0300mm 71.1700mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "CONNECTOR")
 	Attribute("manufacturer" "unknown")
@@ -1834,7 +1834,7 @@ Element["" "0603_sr.fp" "C35" "sr-c-100n-0603-50v" 25.8000mm 41.0500mm 0.0000 0.
 
 	)
 
-Element["" "1206_sr.fp" "C36" "sr-c-10u-1206-16v" 30.4500mm 39.1000mm 0.0000 0.0000 3 100 ""]
+Element["" "1206_sr.fp" "C36" "sr-c-10u-1206-16v" 30.0500mm 38.8500mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1866,7 +1866,7 @@ Element["" "0603_sr.fp" "C33" "sr-c-100n-0603-50v" 57.8000mm 41.0500mm 0.0000 0.
 
 	)
 
-Element["" "1206_sr.fp" "C34" "sr-c-10u-1206-16v" 41.5000mm 39.1000mm 0.0000 0.0000 3 100 ""]
+Element["" "1206_sr.fp" "C34" "sr-c-10u-1206-16v" 41.8000mm 38.8500mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1937,7 +1937,7 @@ Element["" "SOT23_sr.fp" "D15" "sr-d-bat754a" 36.0000mm 51.2500mm 0.0000 0.0000 
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.9500mm -1.0500mm 0.9500mm -0.9500mm 0.8000mm 0.5000mm 1.1000mm "1" "1" "square"]
+	Pad[0.9500mm -1.0500mm 0.9500mm -0.9500mm 0.8000mm 0.5000mm 1.1000mm "1" "1" "found,square"]
 	Pad[-0.9500mm -1.0500mm -0.9500mm -0.9500mm 0.8000mm 0.5000mm 1.1000mm "1" "2" "square"]
 	Pad[0.0000 0.9500mm 0.0000 1.0500mm 0.8000mm 0.5000mm 1.1000mm "3" "3" "square,edge2"]
 	ElementLine [-1.6500mm 1.7500mm 1.6500mm 1.7500mm 0.2000mm]
@@ -1954,7 +1954,7 @@ Element["" "0402_sr.fp" "R58" "sr-r-10k-0402" 34.5000mm 43.3000mm 0.0000 0.0000 
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.4490mm 0.0000 0.4510mm 0.0000 0.6200mm 0.5000mm 0.9200mm "2" "2" "square,edge2"]
+	Pad[0.4490mm 0.0000 0.4510mm 0.0000 0.6200mm 0.5000mm 0.9200mm "2" "2" "found,square,edge2,connected"]
 	Pad[-0.4510mm 0.0000 -0.4490mm 0.0000 0.6200mm 0.5000mm 0.9200mm "1" "1" "square"]
 	ElementLine [-0.9500mm 0.5000mm 0.9500mm 0.5000mm 0.1500mm]
 	ElementLine [-0.9500mm -0.5000mm 0.9500mm -0.5000mm 0.1500mm]
@@ -1971,7 +1971,7 @@ Element["" "0402_sr.fp" "R59" "sr-r-10k-0402" 37.0000mm 48.7500mm 0.0000 0.0000 
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.4490mm 0.0000 0.4510mm 0.0000 0.6200mm 0.5000mm 0.9200mm "2" "2" "square,edge2"]
-	Pad[-0.4510mm 0.0000 -0.4490mm 0.0000 0.6200mm 0.5000mm 0.9200mm "1" "1" "square"]
+	Pad[-0.4510mm 0.0000 -0.4490mm 0.0000 0.6200mm 0.5000mm 0.9200mm "1" "1" "found,square"]
 	ElementLine [-0.9500mm 0.5000mm 0.9500mm 0.5000mm 0.1500mm]
 	ElementLine [-0.9500mm -0.5000mm 0.9500mm -0.5000mm 0.1500mm]
 	ElementLine [0.9500mm -0.5000mm 0.9500mm 0.5000mm 0.1500mm]
@@ -2118,7 +2118,7 @@ Element["" "0805_sr.fp" "C1" "sr-c-4u7-0805-10v" 59.8500mm 71.9000mm 0.0000 0.00
 
 	)
 
-Element["" "0603_sr.fp" "C19" "sr-c-47n-0603-50v" 52.1500mm 78.0500mm 0.0000 0.0000 1 100 ""]
+Element["" "0603_sr.fp" "C19" "sr-c-47n-0603-50v" 52.1500mm 78.1500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2198,7 +2198,7 @@ Element["" "0402_sr.fp" "C7" "sr-c-100n-0402-16v" 59.4000mm 66.8000mm 0.0000 0.0
 
 	)
 
-Element["" "0402_sr.fp" "C21" "sr-c-100n-0402-16v" 19.2000mm 73.4500mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "C21" "sr-c-100n-0402-16v" 19.2000mm 73.5500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2214,7 +2214,7 @@ Element["" "0402_sr.fp" "C21" "sr-c-100n-0402-16v" 19.2000mm 73.4500mm 0.0000 0.
 
 	)
 
-Element["" "0402_sr.fp" "L6" "sr-fb-200m-1k-0402" 18.2000mm 73.4500mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "L6" "sr-fb-200m-1k-0402" 18.2000mm 73.5500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "FERRITE_BEAD")
 	Attribute("manufacturer" "unknown")
@@ -2246,7 +2246,7 @@ Element["" "1206_sr.fp" "F1" "sr-fuse-r50-1206" 22.1000mm 73.6500mm 0.0000 0.000
 
 	)
 
-Element["" "SOD123_sr.fp" "D2" "sr-d-mmsz4689t1g" 54.2000mm 77.1150mm 0.0000 0.0000 1 100 ""]
+Element["" "SOD123_sr.fp" "D2" "sr-d-mmsz4689t1g" 54.0500mm 77.3000mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "DIODE")
 	Attribute("manufacturer" "unknown")
@@ -2873,35 +2873,35 @@ Element["onsolder" "TP_sr.fp" "TP14" "sr-nothing" 53.4500mm 59.8500mm 0.0000 0.0
 
 	)
 
-Element["" "0805_sr.fp" "C12" "sr-c-4u7-0805-10v" 21.4000mm 70.5500mm 0.0000 0.0000 0 100 ""]
+Element["" "0805_sr.fp" "C12" "sr-c-4u7-0805-10v" 23.4000mm 70.7500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-0.9000mm -0.1500mm -0.9000mm 0.1500mm 1.1500mm 0.5000mm 1.4500mm "2" "2" "square"]
-	Pad[0.9000mm -0.1500mm 0.9000mm 0.1500mm 1.1500mm 0.5000mm 1.4500mm "1" "1" "square"]
-	ElementLine [-1.7500mm -1.0000mm 1.7500mm -1.0000mm 0.2000mm]
-	ElementLine [-1.7500mm 1.0000mm 1.7500mm 1.0000mm 0.2000mm]
-	ElementLine [-1.7500mm -1.0000mm -1.7500mm 1.0000mm 0.2000mm]
-	ElementLine [1.7500mm -1.0000mm 1.7500mm 1.0000mm 0.2000mm]
+	Pad[-0.1500mm 0.9000mm 0.1500mm 0.9000mm 1.1500mm 0.5000mm 1.4500mm "2" "2" "square"]
+	Pad[-0.1500mm -0.9000mm 0.1500mm -0.9000mm 1.1500mm 0.5000mm 1.4500mm "1" "1" "square"]
+	ElementLine [-1.0000mm -1.7500mm -1.0000mm 1.7500mm 0.2000mm]
+	ElementLine [1.0000mm -1.7500mm 1.0000mm 1.7500mm 0.2000mm]
+	ElementLine [-1.0000mm 1.7500mm 1.0000mm 1.7500mm 0.2000mm]
+	ElementLine [-1.0000mm -1.7500mm 1.0000mm -1.7500mm 0.2000mm]
 
 	)
 
-Element["" "0402_sr.fp" "C10" "sr-c-100n-0402-16v" 21.4000mm 69.0500mm 0.0000 0.0000 0 100 ""]
+Element["" "0402_sr.fp" "C10" "sr-c-100n-0402-16v" 21.9000mm 69.9000mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-0.4510mm 0.0000 -0.4490mm 0.0000 0.6200mm 0.5000mm 0.9200mm "2" "2" "square"]
-	Pad[0.4490mm 0.0000 0.4510mm 0.0000 0.6200mm 0.5000mm 0.9200mm "1" "1" "square,edge2"]
-	ElementLine [-0.9500mm -0.5000mm 0.9500mm -0.5000mm 0.1500mm]
-	ElementLine [-0.9500mm 0.5000mm 0.9500mm 0.5000mm 0.1500mm]
-	ElementLine [-0.9500mm -0.5000mm -0.9500mm 0.5000mm 0.1500mm]
-	ElementLine [0.9500mm -0.5000mm 0.9500mm 0.5000mm 0.1500mm]
+	Pad[0.0000 0.4490mm 0.0000 0.4510mm 0.6200mm 0.5000mm 0.9200mm "2" "2" "square,edge2"]
+	Pad[0.0000 -0.4510mm 0.0000 -0.4490mm 0.6200mm 0.5000mm 0.9200mm "1" "1" "square"]
+	ElementLine [-0.5000mm -0.9500mm -0.5000mm 0.9500mm 0.1500mm]
+	ElementLine [0.5000mm -0.9500mm 0.5000mm 0.9500mm 0.1500mm]
+	ElementLine [-0.5000mm 0.9500mm 0.5000mm 0.9500mm 0.1500mm]
+	ElementLine [-0.5000mm -0.9500mm 0.5000mm -0.9500mm 0.1500mm]
 
 	)
 
