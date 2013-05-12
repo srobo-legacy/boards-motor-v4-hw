@@ -9,7 +9,7 @@ Grid[196.850394 0.0000 0.0000 1]
 PolyArea[3100.006200]
 Thermal[0.500000]
 DRC[0.1500mm 0.1500mm 0.1500mm 0.1500mm 0.3000mm 0.2000mm]
-Flags("showdrc,description,uniquename,clearnew,snappin,hidenames")
+Flags("showdrc,nameonpcb,uniquename,clearnew,snappin,hidenames")
 Groups("1,c:2,s:3:4:5")
 Styles["Signal,0.2500mm,0.8000mm,0.3000mm,0.2500mm:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,60.00mil,35.00mil,10.00mil:Skinny,0.1500mm,0.7000mm,0.3000mm,0.1500mm"]
 
@@ -790,7 +790,7 @@ Attribute("PCB::grid::size" "0.0500mm")
 Attribute("import::src0" "/home/rbarlow/srobo/git/boards/motor-v4-hw/motor-logic.sch")
 Attribute("import::src1" "/home/rbarlow/srobo/git/boards/motor-v4-hw/motor-power.sch")
 
-Element["" "" "D12" "sr-d-gsot24c" 30.9500mm 19.9500mm 0.0000 0.0000 3 100 ""]
+Element["" "SOT23_sr.fp" "D12" "sr-d-gsot24c" 30.9500mm 19.9500mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "TVS_DIODE")
 	Attribute("manufacturer" "unknown")
@@ -807,7 +807,7 @@ Element["" "" "D12" "sr-d-gsot24c" 30.9500mm 19.9500mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["" "" "D11" "sr-d-gsot24c" 41.1500mm 19.9500mm 0.0000 0.0000 1 100 ""]
+Element["" "SOT23_sr.fp" "D11" "sr-d-gsot24c" 41.1500mm 19.9500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "TVS_DIODE")
 	Attribute("manufacturer" "unknown")
@@ -824,7 +824,7 @@ Element["" "" "D11" "sr-d-gsot24c" 41.1500mm 19.9500mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["" "" "DS9" "sr-led-redblue-dual" 16.1000mm 18.2500mm 0.0000 0.0000 3 100 ""]
+Element["" "0805_split_led_sr.fp" "DS9" "sr-led-redblue-dual" 16.1000mm 18.2500mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -845,7 +845,7 @@ Element["" "" "DS9" "sr-led-redblue-dual" 16.1000mm 18.2500mm 0.0000 0.0000 3 10
 
 	)
 
-Element["" "" "DS8" "sr-led-redblue-dual" 55.8750mm 18.2500mm 0.0000 0.0000 3 100 ""]
+Element["" "0805_split_led_sr.fp" "DS8" "sr-led-redblue-dual" 55.8750mm 18.2500mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -866,7 +866,7 @@ Element["" "" "DS8" "sr-led-redblue-dual" 55.8750mm 18.2500mm 0.0000 0.0000 3 10
 
 	)
 
-Element["" "" "DS7" "sr-led-redgreen-0805" 37.3000mm 35.3500mm 0.3500mm 0.0000 0 100 ""]
+Element["" "0805_led_sr.fp" "DS7" "sr-led-redgreen-0805" 37.3000mm 35.3500mm 0.3500mm 0.0000 0 100 ""]
 (
 	Attribute("device" "BI_LED")
 	Attribute("manufacturer" "unknown")
@@ -885,7 +885,7 @@ Element["" "" "DS7" "sr-led-redgreen-0805" 37.3000mm 35.3500mm 0.3500mm 0.0000 0
 
 	)
 
-Element["" "" "D3" "sr-d-smaj15ca" 36.0000mm 20.0500mm 0.0000 0.0000 0 100 ""]
+Element["" "DO214AC_sr.fp" "D3" "sr-d-smaj15ca" 36.0000mm 20.0500mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "TVS_DIODE")
 	Attribute("manufacturer" "unknown")
@@ -906,7 +906,7 @@ Element["" "" "D3" "sr-d-smaj15ca" 36.0000mm 20.0500mm 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "" "R35" "sr-r-10k" 52.8000mm 19.2500mm 0.0000 0.0000 0 100 ""]
+Element["" "0603_sr.fp" "R35" "sr-r-10k" 52.8000mm 19.2500mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -922,7 +922,7 @@ Element["" "" "R35" "sr-r-10k" 52.8000mm 19.2500mm 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "" "R21" "sr-r-1k-1206" 32.1000mm 35.3000mm 0.0000 0.0000 0 100 ""]
+Element["" "1206_sr.fp" "R21" "sr-r-1k-1206" 32.1000mm 35.3000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -938,7 +938,7 @@ Element["" "" "R21" "sr-r-1k-1206" 32.1000mm 35.3000mm 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "" "R53" "sr-r-1k-1206" 500.00mil 18.8500mm 0.0000 0.0000 2 100 ""]
+Element["" "1206_sr.fp" "R53" "sr-r-1k-1206" 500.00mil 18.8500mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -954,7 +954,7 @@ Element["" "" "R53" "sr-r-1k-1206" 500.00mil 18.8500mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "" "R37" "sr-r-1k-1206" 59.3000mm 18.8500mm 0.0000 0.0000 2 100 ""]
+Element["" "1206_sr.fp" "R37" "sr-r-1k-1206" 59.3000mm 18.8500mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -970,7 +970,7 @@ Element["" "" "R37" "sr-r-1k-1206" 59.3000mm 18.8500mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["lock" "" "J7" "sr-cn-camcon2w-5mm" 22.9000mm 16.0000mm 0.0000 0.0000 2 100 ""]
+Element["lock" "camcon_50_2_sr.fp" "J7" "sr-cn-camcon2w-5mm" 22.9000mm 16.0000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CONNECTOR_2")
 	Attribute("manufacturer" "unknown")
@@ -989,7 +989,7 @@ Element["lock" "" "J7" "sr-cn-camcon2w-5mm" 22.9000mm 16.0000mm 0.0000 0.0000 2 
 
 	)
 
-Element["lock" "" "J6" "sr-cn-camcon2w-5mm" 49.1000mm 16.0000mm 0.0000 0.0000 2 100 ""]
+Element["lock" "camcon_50_2_sr.fp" "J6" "sr-cn-camcon2w-5mm" 49.1000mm 16.0000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CONNECTOR_2")
 	Attribute("manufacturer" "unknown")
@@ -1008,7 +1008,7 @@ Element["lock" "" "J6" "sr-cn-camcon2w-5mm" 49.1000mm 16.0000mm 0.0000 0.0000 2 
 
 	)
 
-Element["" "" "C39" "sr-c-pcf1c221mcl1gs" 16.0000mm 48.0000mm 0.0000 0.0000 0 100 ""]
+Element["" "NICHICON_CAP_10_10_sr.fp" "C39" "sr-c-pcf1c221mcl1gs" 16.0000mm 48.0000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1026,7 +1026,7 @@ Element["" "" "C39" "sr-c-pcf1c221mcl1gs" 16.0000mm 48.0000mm 0.0000 0.0000 0 10
 
 	)
 
-Element["" "" "C37" "sr-c-pcf1c221mcl1gs" 44.0000mm 48.0000mm 0.0000 0.0000 0 100 ""]
+Element["" "NICHICON_CAP_10_10_sr.fp" "C37" "sr-c-pcf1c221mcl1gs" 44.0000mm 48.0000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1044,7 +1044,7 @@ Element["" "" "C37" "sr-c-pcf1c221mcl1gs" 44.0000mm 48.0000mm 0.0000 0.0000 0 10
 
 	)
 
-Element["" "" "Q2" "sr-fet-n-irfh5301" 37.1050mm 39.7400mm 0.0000 0.0000 0 100 ""]
+Element["" "PQFN56B_sr.fp" "Q2" "sr-fet-n-irfh5301" 37.1050mm 39.7400mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "NMOS_TRANSISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1073,7 +1073,7 @@ Element["" "" "Q2" "sr-fet-n-irfh5301" 37.1050mm 39.7400mm 0.0000 0.0000 0 100 "
 
 	)
 
-Element["onsolder" "" "TP17" "sr-nothing" 37.7500mm 42.9000mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP17" "sr-nothing" 37.7500mm 42.9000mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -1085,7 +1085,7 @@ Element["onsolder" "" "TP17" "sr-nothing" 37.7500mm 42.9000mm 0.0000 0.0000 0 10
 
 	)
 
-Element["" "" "C32" "sr-c-100n-0603-50v" 37.0000mm 43.5500mm 0.0000 0.0000 2 100 ""]
+Element["" "0603_sr.fp" "C32" "sr-c-100n-0603-50v" 37.0000mm 43.5500mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1101,7 +1101,7 @@ Element["" "" "C32" "sr-c-100n-0603-50v" 37.0000mm 43.5500mm 0.0000 0.0000 2 100
 
 	)
 
-Element["" "" "C40" "sr-c-pcf1c221mcl1gs" 28.0000mm 48.0000mm 0.0000 0.0000 0 100 ""]
+Element["" "NICHICON_CAP_10_10_sr.fp" "C40" "sr-c-pcf1c221mcl1gs" 28.0000mm 48.0000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1119,7 +1119,7 @@ Element["" "" "C40" "sr-c-pcf1c221mcl1gs" 28.0000mm 48.0000mm 0.0000 0.0000 0 10
 
 	)
 
-Element["" "" "C38" "sr-c-pcf1c221mcl1gs" 56.0000mm 48.0000mm 0.0000 0.0000 0 100 ""]
+Element["" "NICHICON_CAP_10_10_sr.fp" "C38" "sr-c-pcf1c221mcl1gs" 56.0000mm 48.0000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1137,7 +1137,7 @@ Element["" "" "C38" "sr-c-pcf1c221mcl1gs" 56.0000mm 48.0000mm 0.0000 0.0000 0 10
 
 	)
 
-Element["" "" "C31" "sr-c-100n-0603-50v" 36.0000mm 22.8500mm 0.0000 0.0000 0 100 ""]
+Element["" "0603_sr.fp" "C31" "sr-c-100n-0603-50v" 36.0000mm 22.8500mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1153,7 +1153,7 @@ Element["" "" "C31" "sr-c-100n-0603-50v" 36.0000mm 22.8500mm 0.0000 0.0000 0 100
 
 	)
 
-Element["" "" "L11" "sr-cm-20a-170r" 36.0000mm 28.9000mm 0.0000 0.0000 2 100 ""]
+Element["" "CM3440Z171B_sr.fp" "L11" "sr-cm-20a-170r" 36.0000mm 28.9000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CHOKE")
 	Attribute("manufacturer" "unknown")
@@ -1171,7 +1171,7 @@ Element["" "" "L11" "sr-cm-20a-170r" 36.0000mm 28.9000mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["lock" "" "J5" "sr-cn-camcon2w" 36.0000mm 16.0000mm 0.0000 0.0000 2 100 ""]
+Element["lock" "camcon_75_2_sr.fp" "J5" "sr-cn-camcon2w" 36.0000mm 16.0000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CONNECTOR_2")
 	Attribute("manufacturer" "unknown")
@@ -1190,7 +1190,7 @@ Element["lock" "" "J5" "sr-cn-camcon2w" 36.0000mm 16.0000mm 0.0000 0.0000 2 100 
 
 	)
 
-Element["" "" "U6" "sr-ic-vnh5019" 20.0000mm 30.2500mm 0.0000 0.0000 0 100 ""]
+Element["" "MultiPowerSO30_sr.fp" "U6" "sr-ic-vnh5019" 20.0000mm 30.2500mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "VNH5019A-E")
 	Attribute("manufacturer" "unknown")
@@ -1269,7 +1269,7 @@ Element["" "" "U6" "sr-ic-vnh5019" 20.0000mm 30.2500mm 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "" "U5" "sr-ic-vnh5019" 52.0000mm 30.2500mm 0.0000 0.0000 0 100 ""]
+Element["" "MultiPowerSO30_sr.fp" "U5" "sr-ic-vnh5019" 52.0000mm 30.2500mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "VNH5019A-E")
 	Attribute("manufacturer" "unknown")
@@ -1348,7 +1348,7 @@ Element["" "" "U5" "sr-ic-vnh5019" 52.0000mm 30.2500mm 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "" "D14" "sr-nothing" 35.3500mm 74.4500mm 0.0000 0.0000 3 100 ""]
+Element["" "SOD323_sr.fp" "D14" "sr-nothing" 35.3500mm 74.4500mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "DIODE")
 	Attribute("manufacturer" "unknown")
@@ -1369,7 +1369,7 @@ Element["" "" "D14" "sr-nothing" 35.3500mm 74.4500mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["" "" "D10" "sr-d-gsot05c" 26.2000mm 73.1500mm 0.0000 0.0000 1 100 ""]
+Element["" "SOT23_sr.fp" "D10" "sr-d-gsot05c" 26.2000mm 73.1500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "TVS_DIODE")
 	Attribute("manufacturer" "unknown")
@@ -1386,7 +1386,7 @@ Element["" "" "D10" "sr-d-gsot05c" 26.2000mm 73.1500mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["" "" "J2" "sr-cn-header2x4-std" 33.4000mm 67.6500mm 0.0000 0.0000 3 100 ""]
+Element["" "header_254_8w_sr.fp" "J2" "sr-cn-header2x4-std" 33.4000mm 67.6500mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "CONNECTOR_8")
 	Attribute("manufacturer" "unknown")
@@ -1410,7 +1410,7 @@ Element["" "" "J2" "sr-cn-header2x4-std" 33.4000mm 67.6500mm 0.0000 0.0000 3 100
 
 	)
 
-Element["" "" "DS2" "sr-led-red-0805" 41.8000mm 25.6500mm 0.0000 0.0000 3 100 ""]
+Element["" "0805_led_sr.fp" "DS2" "sr-led-red-0805" 41.8000mm 25.6500mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1429,7 +1429,7 @@ Element["" "" "DS2" "sr-led-red-0805" 41.8000mm 25.6500mm 0.0000 0.0000 3 100 ""
 
 	)
 
-Element["" "" "DS3" "sr-led-blue-0805" 41.8000mm 31.0000mm 0.0000 0.0000 3 100 ""]
+Element["" "0805_led_sr.fp" "DS3" "sr-led-blue-0805" 41.8000mm 31.0000mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1448,7 +1448,7 @@ Element["" "" "DS3" "sr-led-blue-0805" 41.8000mm 31.0000mm 0.0000 0.0000 3 100 "
 
 	)
 
-Element["" "" "DS4" "sr-led-red-0805" 30.2000mm 25.6500mm 0.0000 0.0000 3 100 ""]
+Element["" "0805_led_sr.fp" "DS4" "sr-led-red-0805" 30.2000mm 25.6500mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1467,7 +1467,7 @@ Element["" "" "DS4" "sr-led-red-0805" 30.2000mm 25.6500mm 0.0000 0.0000 3 100 ""
 
 	)
 
-Element["" "" "DS5" "sr-led-blue-0805" 30.2000mm 31.0000mm 0.0000 0.0000 3 100 ""]
+Element["" "0805_led_sr.fp" "DS5" "sr-led-blue-0805" 30.2000mm 31.0000mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1486,7 +1486,7 @@ Element["" "" "DS5" "sr-led-blue-0805" 30.2000mm 31.0000mm 0.0000 0.0000 3 100 "
 
 	)
 
-Element["" "" "S1" "sr-sw-button-ra" 58.1500mm 61.6000mm 0.0000 0.0000 1 100 ""]
+Element["" "FSMRA2JH_sr.fp" "S1" "sr-sw-button-ra" 58.1500mm 61.6000mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "SWITCH_PUSHBUTTON_NO")
 	Attribute("manufacturer" "unknown")
@@ -1509,7 +1509,7 @@ Element["" "" "S1" "sr-sw-button-ra" 58.1500mm 61.6000mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["" "" "R13" "sr-r-10k-0402" 16.2000mm 54.7000mm 0.0000 0.0000 0 100 ""]
+Element["" "0402_sr.fp" "R13" "sr-r-10k-0402" 16.2000mm 54.7000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1525,7 +1525,7 @@ Element["" "" "R13" "sr-r-10k-0402" 16.2000mm 54.7000mm 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "" "R16" "sr-r-10k-0402" 26.0500mm 60.9000mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "R16" "sr-r-10k-0402" 26.0500mm 60.9000mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1541,7 +1541,7 @@ Element["" "" "R16" "sr-r-10k-0402" 26.0500mm 60.9000mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["onsolder" "" "TP15" "sr-nothing" 55.7000mm 61.0500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP15" "sr-nothing" 55.7000mm 61.0500mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -1553,7 +1553,7 @@ Element["onsolder" "" "TP15" "sr-nothing" 55.7000mm 61.0500mm 0.0000 0.0000 0 10
 
 	)
 
-Element["" "" "C28" "sr-c-100n-0402-16v" 25.0500mm 61.6000mm 0.0000 0.0000 3 100 ""]
+Element["" "0402_sr.fp" "C28" "sr-c-100n-0402-16v" 25.0500mm 61.6000mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1569,7 +1569,7 @@ Element["" "" "C28" "sr-c-100n-0402-16v" 25.0500mm 61.6000mm 0.0000 0.0000 3 100
 
 	)
 
-Element["onsolder" "" "TP3" "sr-nothing" 45.7500mm 68.1500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP3" "sr-nothing" 45.7500mm 68.1500mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -1581,7 +1581,7 @@ Element["onsolder" "" "TP3" "sr-nothing" 45.7500mm 68.1500mm 0.0000 0.0000 0 100
 
 	)
 
-Element["" "" "J4" "sr-cn-header2x5-1.27mm" 11.6300mm 71.7700mm 0.0000 0.0000 1 100 ""]
+Element["" "header_127_10w_sr.fp" "J4" "sr-cn-header2x5-1.27mm" 11.6300mm 71.7700mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "CONNECTOR")
 	Attribute("manufacturer" "unknown")
@@ -1607,7 +1607,7 @@ Element["" "" "J4" "sr-cn-header2x5-1.27mm" 11.6300mm 71.7700mm 0.0000 0.0000 1 
 
 	)
 
-Element["onsolder" "" "TP4" "sr-nothing" 32.5500mm 29.3000mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP4" "sr-nothing" 32.5500mm 29.3000mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -1619,7 +1619,7 @@ Element["onsolder" "" "TP4" "sr-nothing" 32.5500mm 29.3000mm 0.0000 0.0000 0 100
 
 	)
 
-Element["" "" "U4" "sr-ic-stm32f100r6" 17.9000mm 61.9000mm 0.0000 0.0000 2 100 ""]
+Element["" "LQFP64_10_sr.fp" "U4" "sr-ic-stm32f100r6" 17.9000mm 61.9000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "STM32F100Rx")
 	Attribute("manufacturer" "unknown")
@@ -1699,7 +1699,7 @@ Element["" "" "U4" "sr-ic-stm32f100r6" 17.9000mm 61.9000mm 0.0000 0.0000 2 100 "
 
 	)
 
-Element["" "" "U2" "sr-ic-adum3211arz" 37.6000mm 74.4500mm 0.0000 0.0000 1 100 ""]
+Element["" "SOIC8_sr.fp" "U2" "sr-ic-adum3211arz" 37.6000mm 74.4500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "ADUM32x1")
 	Attribute("manufacturer" "unknown")
@@ -1723,7 +1723,7 @@ Element["" "" "U2" "sr-ic-adum3211arz" 37.6000mm 74.4500mm 0.0000 0.0000 1 100 "
 
 	)
 
-Element["lock" "" "J3" "sr-cn-minicamcon4w" 26.0000mm 76.0000mm 0.0000 1.5500mm 0 100 ""]
+Element["lock" "camcon_38_4_sr.fp" "J3" "sr-cn-minicamcon4w" 26.0000mm 76.0000mm 0.0000 1.5500mm 0 100 ""]
 (
 	Attribute("device" "CONNECTOR_4")
 	Attribute("manufacturer" "unknown")
@@ -1744,7 +1744,7 @@ Element["lock" "" "J3" "sr-cn-minicamcon4w" 26.0000mm 76.0000mm 0.0000 1.5500mm 
 
 	)
 
-Element["onsolder" "" "TP5" "sr-nothing" 60.1000mm 64.7000mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP5" "sr-nothing" 60.1000mm 64.7000mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -1756,7 +1756,7 @@ Element["onsolder" "" "TP5" "sr-nothing" 60.1000mm 64.7000mm 0.0000 0.0000 0 100
 
 	)
 
-Element["lock" "" "J1" "sr-cn-usb-micro-b" 46.0000mm 80.4000mm 1.2000mm -0.3000mm 0 100 ""]
+Element["lock" "FCI_10103592_sr.fp" "J1" "sr-cn-usb-micro-b" 46.0000mm 80.4000mm 1.2000mm -0.3000mm 0 100 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -1818,7 +1818,7 @@ Element["lock" "" "" "M3_mounting_hole" 58.5000mm 13.5000mm 0.8000mm 1.7500mm 0 
 
 	)
 
-Element["" "" "C35" "sr-c-100n-0603-50v" 25.8000mm 41.0500mm 0.0000 0.0000 2 100 ""]
+Element["" "0603_sr.fp" "C35" "sr-c-100n-0603-50v" 25.8000mm 41.0500mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1834,7 +1834,7 @@ Element["" "" "C35" "sr-c-100n-0603-50v" 25.8000mm 41.0500mm 0.0000 0.0000 2 100
 
 	)
 
-Element["" "" "C36" "sr-c-10u-1206-16v" 30.4500mm 39.1000mm 0.0000 0.0000 3 100 ""]
+Element["" "1206_sr.fp" "C36" "sr-c-10u-1206-16v" 30.4500mm 39.1000mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1850,7 +1850,7 @@ Element["" "" "C36" "sr-c-10u-1206-16v" 30.4500mm 39.1000mm 0.0000 0.0000 3 100 
 
 	)
 
-Element["" "" "C33" "sr-c-100n-0603-50v" 57.8000mm 41.0500mm 0.0000 0.0000 2 100 ""]
+Element["" "0603_sr.fp" "C33" "sr-c-100n-0603-50v" 57.8000mm 41.0500mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1866,7 +1866,7 @@ Element["" "" "C33" "sr-c-100n-0603-50v" 57.8000mm 41.0500mm 0.0000 0.0000 2 100
 
 	)
 
-Element["" "" "C34" "sr-c-10u-1206-16v" 41.5000mm 39.1000mm 0.0000 0.0000 3 100 ""]
+Element["" "1206_sr.fp" "C34" "sr-c-10u-1206-16v" 41.5000mm 39.1000mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1882,7 +1882,7 @@ Element["" "" "C34" "sr-c-10u-1206-16v" 41.5000mm 39.1000mm 0.0000 0.0000 3 100 
 
 	)
 
-Element["" "" "C48" "sr-c-100n-0603-50v" 22.9000mm 750.00mil 2.0000mm -0.6000mm 0 100 ""]
+Element["" "0603_sr.fp" "C48" "sr-c-100n-0603-50v" 22.9000mm 750.00mil 2.0000mm -0.6000mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1898,7 +1898,7 @@ Element["" "" "C48" "sr-c-100n-0603-50v" 22.9000mm 750.00mil 2.0000mm -0.6000mm 
 
 	)
 
-Element["" "" "R51" "sr-r-10k" 19.2500mm 750.00mil 0.0000 0.0000 0 100 ""]
+Element["" "0603_sr.fp" "R51" "sr-r-10k" 19.2500mm 750.00mil 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1914,7 +1914,7 @@ Element["" "" "R51" "sr-r-10k" 19.2500mm 750.00mil 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "" "C44" "sr-c-100n-0603-50v" 49.1000mm 19.2500mm 1.3500mm -0.6000mm 0 100 ""]
+Element["" "0603_sr.fp" "C44" "sr-c-100n-0603-50v" 49.1000mm 19.2500mm 1.3500mm -0.6000mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1930,7 +1930,7 @@ Element["" "" "C44" "sr-c-100n-0603-50v" 49.1000mm 19.2500mm 1.3500mm -0.6000mm 
 
 	)
 
-Element["" "" "D15" "sr-d-bat754a" 36.0000mm 51.2500mm 0.0000 0.0000 2 100 ""]
+Element["" "SOT23_sr.fp" "D15" "sr-d-bat754a" 36.0000mm 51.2500mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "DIODE")
 	Attribute("manufacturer" "unknown")
@@ -1947,7 +1947,7 @@ Element["" "" "D15" "sr-d-bat754a" 36.0000mm 51.2500mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "" "R58" "sr-r-10k-0402" 34.5000mm 43.3000mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "R58" "sr-r-10k-0402" 34.5000mm 43.3000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1963,7 +1963,7 @@ Element["" "" "R58" "sr-r-10k-0402" 34.5000mm 43.3000mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "" "R59" "sr-r-10k-0402" 37.0000mm 48.7500mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "R59" "sr-r-10k-0402" 37.0000mm 48.7500mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1979,7 +1979,7 @@ Element["" "" "R59" "sr-r-10k-0402" 37.0000mm 48.7500mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "" "Q3" "sr-npn-bc846b" 36.0000mm 46.2500mm 0.0000 0.0000 2 100 ""]
+Element["" "SOT23_sr.fp" "Q3" "sr-npn-bc846b" 36.0000mm 46.2500mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "NPN_TRANSISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1996,7 +1996,7 @@ Element["" "" "Q3" "sr-npn-bc846b" 36.0000mm 46.2500mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "" "R60" "sr-r-10k-0402" 35.0000mm 48.7500mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "R60" "sr-r-10k-0402" 35.0000mm 48.7500mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -2012,7 +2012,7 @@ Element["" "" "R60" "sr-r-10k-0402" 35.0000mm 48.7500mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "" "VR1" "sr-d-vbus052cd" 48.3000mm 70.7600mm 0.0000 0.0000 0 100 ""]
+Element["" "LLP1713_sr.fp" "VR1" "sr-d-vbus052cd" 48.3000mm 70.7600mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "VBUS052CD")
 	Attribute("manufacturer" "unknown")
@@ -2035,7 +2035,7 @@ Element["" "" "VR1" "sr-d-vbus052cd" 48.3000mm 70.7600mm 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "" "U3" "sr-ic-ft232rq" 54.8500mm 69.5000mm 0.0000 0.0000 3 100 ""]
+Element["" "QFN32_5_EP_sr.fp" "U3" "sr-ic-ft232rq" 54.8500mm 69.5000mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "FT232RQ")
 	Attribute("manufacturer" "unknown")
@@ -2102,7 +2102,7 @@ Element["" "" "U3" "sr-ic-ft232rq" 54.8500mm 69.5000mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["" "" "C1" "sr-c-4u7-0805-10v" 59.8500mm 71.9000mm 0.0000 0.0000 0 100 ""]
+Element["" "0805_sr.fp" "C1" "sr-c-4u7-0805-10v" 59.8500mm 71.9000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2118,7 +2118,7 @@ Element["" "" "C1" "sr-c-4u7-0805-10v" 59.8500mm 71.9000mm 0.0000 0.0000 0 100 "
 
 	)
 
-Element["" "" "C19" "sr-c-47n-0603-50v" 52.1500mm 78.0500mm 0.0000 0.0000 1 100 ""]
+Element["" "0603_sr.fp" "C19" "sr-c-47n-0603-50v" 52.1500mm 78.0500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2134,7 +2134,7 @@ Element["" "" "C19" "sr-c-47n-0603-50v" 52.1500mm 78.0500mm 0.0000 0.0000 1 100 
 
 	)
 
-Element["" "" "R9" "sr-r-1000k-0402" 52.1500mm 75.5000mm 0.0000 0.0000 3 100 ""]
+Element["" "0402_sr.fp" "R9" "sr-r-1000k-0402" 52.1500mm 75.5000mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -2150,7 +2150,7 @@ Element["" "" "R9" "sr-r-1000k-0402" 52.1500mm 75.5000mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["" "" "C11" "sr-c-100n-0402-16v" 51.1500mm 71.6500mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "C11" "sr-c-100n-0402-16v" 51.1500mm 71.6500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2166,7 +2166,7 @@ Element["" "" "C11" "sr-c-100n-0402-16v" 51.1500mm 71.6500mm 0.0000 0.0000 1 100
 
 	)
 
-Element["" "" "C9" "sr-c-100n-0402-16v" 54.1500mm 73.5500mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "C9" "sr-c-100n-0402-16v" 54.1500mm 73.5500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2182,7 +2182,7 @@ Element["" "" "C9" "sr-c-100n-0402-16v" 54.1500mm 73.5500mm 0.0000 0.0000 1 100 
 
 	)
 
-Element["" "" "C7" "sr-c-100n-0402-16v" 59.4000mm 66.8000mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "C7" "sr-c-100n-0402-16v" 59.4000mm 66.8000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2198,7 +2198,7 @@ Element["" "" "C7" "sr-c-100n-0402-16v" 59.4000mm 66.8000mm 0.0000 0.0000 2 100 
 
 	)
 
-Element["" "" "C21" "sr-c-100n-0402-16v" 19.2000mm 73.4500mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "C21" "sr-c-100n-0402-16v" 19.2000mm 73.4500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2214,7 +2214,7 @@ Element["" "" "C21" "sr-c-100n-0402-16v" 19.2000mm 73.4500mm 0.0000 0.0000 1 100
 
 	)
 
-Element["" "" "L6" "sr-fb-200m-1k-0402" 18.2000mm 73.4500mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "L6" "sr-fb-200m-1k-0402" 18.2000mm 73.4500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "FERRITE_BEAD")
 	Attribute("manufacturer" "unknown")
@@ -2230,7 +2230,7 @@ Element["" "" "L6" "sr-fb-200m-1k-0402" 18.2000mm 73.4500mm 0.0000 0.0000 1 100 
 
 	)
 
-Element["" "" "F1" "sr-fuse-r50-1206" 22.1000mm 73.6500mm 0.0000 0.0000 2 100 ""]
+Element["" "1206_sr.fp" "F1" "sr-fuse-r50-1206" 22.1000mm 73.6500mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESETTABLE_FUSE")
 	Attribute("manufacturer" "unknown")
@@ -2246,7 +2246,7 @@ Element["" "" "F1" "sr-fuse-r50-1206" 22.1000mm 73.6500mm 0.0000 0.0000 2 100 ""
 
 	)
 
-Element["" "" "D2" "sr-d-mmsz4689t1g" 54.2000mm 77.1150mm 0.0000 0.0000 1 100 ""]
+Element["" "SOD123_sr.fp" "D2" "sr-d-mmsz4689t1g" 54.2000mm 77.1150mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "DIODE")
 	Attribute("manufacturer" "unknown")
@@ -2267,7 +2267,7 @@ Element["" "" "D2" "sr-d-mmsz4689t1g" 54.2000mm 77.1150mm 0.0000 0.0000 1 100 ""
 
 	)
 
-Element["" "" "D1" "sr-d-bat754c" 59.8500mm 69.2500mm 0.0000 0.0000 3 100 ""]
+Element["" "SOT23_sr.fp" "D1" "sr-d-bat754c" 59.8500mm 69.2500mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "DIODE")
 	Attribute("manufacturer" "unknown")
@@ -2284,7 +2284,7 @@ Element["" "" "D1" "sr-d-bat754c" 59.8500mm 69.2500mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["" "" "C13" "sr-c-100n-0402-16v" 35.7000mm 79.1500mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "C13" "sr-c-100n-0402-16v" 35.7000mm 79.1500mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2300,7 +2300,7 @@ Element["" "" "C13" "sr-c-100n-0402-16v" 35.7000mm 79.1500mm 0.0000 0.0000 2 100
 
 	)
 
-Element["" "" "R11" "sr-nothing" 38.4500mm 74.4500mm 0.0000 0.0000 3 100 ""]
+Element["" "0603_sr.fp" "R11" "sr-nothing" 38.4500mm 74.4500mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -2316,7 +2316,7 @@ Element["" "" "R11" "sr-nothing" 38.4500mm 74.4500mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["" "" "R3" "sr-nothing" 36.9500mm 74.4500mm 0.0000 0.0000 3 100 ""]
+Element["" "0603_sr.fp" "R3" "sr-nothing" 36.9500mm 74.4500mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -2332,7 +2332,7 @@ Element["" "" "R3" "sr-nothing" 36.9500mm 74.4500mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["" "" "R2" "sr-nothing" 39.9500mm 74.4500mm 0.0000 0.0000 3 100 ""]
+Element["" "0603_sr.fp" "R2" "sr-nothing" 39.9500mm 74.4500mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -2348,7 +2348,7 @@ Element["" "" "R2" "sr-nothing" 39.9500mm 74.4500mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["" "" "C20" "sr-c-100n-0402-16v" 53.1500mm 73.5500mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "C20" "sr-c-100n-0402-16v" 53.1500mm 73.5500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2364,7 +2364,7 @@ Element["" "" "C20" "sr-c-100n-0402-16v" 53.1500mm 73.5500mm 0.0000 0.0000 1 100
 
 	)
 
-Element["" "" "C18" "sr-c-100n-0402-16v" 50.1500mm 73.5500mm 0.0000 0.0000 3 100 ""]
+Element["" "0402_sr.fp" "C18" "sr-c-100n-0402-16v" 50.1500mm 73.5500mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2380,7 +2380,7 @@ Element["" "" "C18" "sr-c-100n-0402-16v" 50.1500mm 73.5500mm 0.0000 0.0000 3 100
 
 	)
 
-Element["" "" "C17" "sr-c-10n-0402-25v" 48.1500mm 73.5500mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "C17" "sr-c-10n-0402-25v" 48.1500mm 73.5500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2396,7 +2396,7 @@ Element["" "" "C17" "sr-c-10n-0402-25v" 48.1500mm 73.5500mm 0.0000 0.0000 1 100 
 
 	)
 
-Element["" "" "L3" "sr-fb-200m-1k-0402" 49.1500mm 73.5500mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "L3" "sr-fb-200m-1k-0402" 49.1500mm 73.5500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "FERRITE_BEAD")
 	Attribute("manufacturer" "unknown")
@@ -2412,7 +2412,7 @@ Element["" "" "L3" "sr-fb-200m-1k-0402" 49.1500mm 73.5500mm 0.0000 0.0000 1 100 
 
 	)
 
-Element["" "" "R10" "sr-r-10k-0402" 52.1500mm 73.5500mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "R10" "sr-r-10k-0402" 52.1500mm 73.5500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -2428,7 +2428,7 @@ Element["" "" "R10" "sr-r-10k-0402" 52.1500mm 73.5500mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["" "" "R5" "sr-r-4k7-0402" 51.1500mm 73.5500mm 0.0000 0.0000 3 100 ""]
+Element["" "0402_sr.fp" "R5" "sr-r-4k7-0402" 51.1500mm 73.5500mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -2444,7 +2444,7 @@ Element["" "" "R5" "sr-r-4k7-0402" 51.1500mm 73.5500mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["" "" "Q1" "sr-npn-bc846b" 59.9500mm 55.8500mm 0.0000 0.0000 3 100 ""]
+Element["" "SOT23_sr.fp" "Q1" "sr-npn-bc846b" 59.9500mm 55.8500mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "NPN_TRANSISTOR")
 	Attribute("manufacturer" "unknown")
@@ -2461,7 +2461,7 @@ Element["" "" "Q1" "sr-npn-bc846b" 59.9500mm 55.8500mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["" "" "C26" "sr-c-470n-0603-25v" 57.4500mm 55.7500mm 0.0000 0.0000 3 100 ""]
+Element["" "0603_sr.fp" "C26" "sr-c-470n-0603-25v" 57.4500mm 55.7500mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2477,7 +2477,7 @@ Element["" "" "C26" "sr-c-470n-0603-25v" 57.4500mm 55.7500mm 0.0000 0.0000 3 100
 
 	)
 
-Element["onsolder" "" "TP38" "sr-nothing" 20.4500mm 12.2500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP38" "sr-nothing" 20.4500mm 12.2500mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2489,7 +2489,7 @@ Element["onsolder" "" "TP38" "sr-nothing" 20.4500mm 12.2500mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP28" "sr-nothing" 46.8000mm 12.2500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP28" "sr-nothing" 46.8000mm 12.2500mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2501,7 +2501,7 @@ Element["onsolder" "" "TP28" "sr-nothing" 46.8000mm 12.2500mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP37" "sr-nothing" 25.5000mm 12.2500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP37" "sr-nothing" 25.5000mm 12.2500mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2513,7 +2513,7 @@ Element["onsolder" "" "TP37" "sr-nothing" 25.5000mm 12.2500mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP27" "sr-nothing" 51.7000mm 12.4000mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP27" "sr-nothing" 51.7000mm 12.4000mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2525,7 +2525,7 @@ Element["onsolder" "" "TP27" "sr-nothing" 51.7000mm 12.4000mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP36" "sr-nothing" 29.3000mm 55.9500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP36" "sr-nothing" 29.3000mm 55.9500mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2537,7 +2537,7 @@ Element["onsolder" "" "TP36" "sr-nothing" 29.3000mm 55.9500mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP35" "sr-nothing" 29.4500mm 58.5500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP35" "sr-nothing" 29.4500mm 58.5500mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2549,7 +2549,7 @@ Element["onsolder" "" "TP35" "sr-nothing" 29.4500mm 58.5500mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP34" "sr-nothing" 39.1500mm 57.4000mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP34" "sr-nothing" 39.1500mm 57.4000mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2561,7 +2561,7 @@ Element["onsolder" "" "TP34" "sr-nothing" 39.1500mm 57.4000mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP33" "sr-nothing" 18.5500mm 57.0000mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP33" "sr-nothing" 18.5500mm 57.0000mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2573,7 +2573,7 @@ Element["onsolder" "" "TP33" "sr-nothing" 18.5500mm 57.0000mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP32" "sr-nothing" 39.3000mm 61.6500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP32" "sr-nothing" 39.3000mm 61.6500mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2585,7 +2585,7 @@ Element["onsolder" "" "TP32" "sr-nothing" 39.3000mm 61.6500mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP31" "sr-nothing" 38.8500mm 59.6500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP31" "sr-nothing" 38.8500mm 59.6500mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2597,7 +2597,7 @@ Element["onsolder" "" "TP31" "sr-nothing" 38.8500mm 59.6500mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP30" "sr-nothing" 14.9500mm 57.9500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP30" "sr-nothing" 14.9500mm 57.9500mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2609,7 +2609,7 @@ Element["onsolder" "" "TP30" "sr-nothing" 14.9500mm 57.9500mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP29" "sr-nothing" 12.9000mm 59.0000mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP29" "sr-nothing" 12.9000mm 59.0000mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2621,7 +2621,7 @@ Element["onsolder" "" "TP29" "sr-nothing" 12.9000mm 59.0000mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP26" "sr-nothing" 36.0500mm 60.5000mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP26" "sr-nothing" 36.0500mm 60.5000mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2633,7 +2633,7 @@ Element["onsolder" "" "TP26" "sr-nothing" 36.0500mm 60.5000mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP25" "sr-nothing" 36.0000mm 62.9000mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP25" "sr-nothing" 36.0000mm 62.9000mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2645,7 +2645,7 @@ Element["onsolder" "" "TP25" "sr-nothing" 36.0000mm 62.9000mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP24" "sr-nothing" 39.3000mm 63.3000mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP24" "sr-nothing" 39.3000mm 63.3000mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2657,7 +2657,7 @@ Element["onsolder" "" "TP24" "sr-nothing" 39.3000mm 63.3000mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP23" "sr-nothing" 22.3000mm 59.1500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP23" "sr-nothing" 22.3000mm 59.1500mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2669,7 +2669,7 @@ Element["onsolder" "" "TP23" "sr-nothing" 22.3000mm 59.1500mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP22" "sr-nothing" 39.8000mm 67.5500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP22" "sr-nothing" 39.8000mm 67.5500mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2681,7 +2681,7 @@ Element["onsolder" "" "TP22" "sr-nothing" 39.8000mm 67.5500mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP21" "sr-nothing" 39.6500mm 65.4500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP21" "sr-nothing" 39.6500mm 65.4500mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2693,7 +2693,7 @@ Element["onsolder" "" "TP21" "sr-nothing" 39.6500mm 65.4500mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP20" "sr-nothing" 22.0500mm 65.5500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP20" "sr-nothing" 22.0500mm 65.5500mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2705,7 +2705,7 @@ Element["onsolder" "" "TP20" "sr-nothing" 22.0500mm 65.5500mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP19" "sr-nothing" 19.5000mm 65.6000mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP19" "sr-nothing" 19.5000mm 65.6000mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2717,7 +2717,7 @@ Element["onsolder" "" "TP19" "sr-nothing" 19.5000mm 65.6000mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP18" "sr-nothing" 36.0000mm 56.6500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP18" "sr-nothing" 36.0000mm 56.6500mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2729,7 +2729,7 @@ Element["onsolder" "" "TP18" "sr-nothing" 36.0000mm 56.6500mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP16" "sr-nothing" 39.8000mm 30.9500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP16" "sr-nothing" 39.8000mm 30.9500mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2741,7 +2741,7 @@ Element["onsolder" "" "TP16" "sr-nothing" 39.8000mm 30.9500mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP12" "sr-nothing" 50.5000mm 68.1000mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP12" "sr-nothing" 50.5000mm 68.1000mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2753,7 +2753,7 @@ Element["onsolder" "" "TP12" "sr-nothing" 50.5000mm 68.1000mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP11" "sr-nothing" 55.7000mm 73.6000mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP11" "sr-nothing" 55.7000mm 73.6000mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2765,7 +2765,7 @@ Element["onsolder" "" "TP11" "sr-nothing" 55.7000mm 73.6000mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP10" "sr-nothing" 57.0500mm 73.1500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP10" "sr-nothing" 57.0500mm 73.1500mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2777,7 +2777,7 @@ Element["onsolder" "" "TP10" "sr-nothing" 57.0500mm 73.1500mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP13" "sr-nothing" 57.9000mm 66.3000mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP13" "sr-nothing" 57.9000mm 66.3000mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2789,7 +2789,7 @@ Element["onsolder" "" "TP13" "sr-nothing" 57.9000mm 66.3000mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP1" "sr-nothing" 60.7000mm 66.4000mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP1" "sr-nothing" 60.7000mm 66.4000mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2801,7 +2801,7 @@ Element["onsolder" "" "TP1" "sr-nothing" 60.7000mm 66.4000mm 0.0000 0.0000 0 100
 
 	)
 
-Element["onsolder" "" "TP2" "sr-nothing" 61.2000mm 73.6500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP2" "sr-nothing" 61.2000mm 73.6500mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2813,7 +2813,7 @@ Element["onsolder" "" "TP2" "sr-nothing" 61.2000mm 73.6500mm 0.0000 0.0000 0 100
 
 	)
 
-Element["onsolder" "" "TP9" "sr-nothing" 40.2000mm 71.1500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP9" "sr-nothing" 40.2000mm 71.1500mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2825,7 +2825,7 @@ Element["onsolder" "" "TP9" "sr-nothing" 40.2000mm 71.1500mm 0.0000 0.0000 0 100
 
 	)
 
-Element["onsolder" "" "TP8" "sr-nothing" 37.0500mm 70.9500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP8" "sr-nothing" 37.0500mm 70.9500mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2837,7 +2837,7 @@ Element["onsolder" "" "TP8" "sr-nothing" 37.0500mm 70.9500mm 0.0000 0.0000 0 100
 
 	)
 
-Element["onsolder" "" "TP7" "sr-nothing" 39.1500mm 78.9000mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP7" "sr-nothing" 39.1500mm 78.9000mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2849,7 +2849,7 @@ Element["onsolder" "" "TP7" "sr-nothing" 39.1500mm 78.9000mm 0.0000 0.0000 0 100
 
 	)
 
-Element["onsolder" "" "TP6" "sr-nothing" 37.4500mm 78.8000mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP6" "sr-nothing" 37.4500mm 78.8000mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2861,7 +2861,7 @@ Element["onsolder" "" "TP6" "sr-nothing" 37.4500mm 78.8000mm 0.0000 0.0000 0 100
 
 	)
 
-Element["onsolder" "" "TP14" "sr-nothing" 53.4500mm 59.8500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP14" "sr-nothing" 53.4500mm 59.8500mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2873,7 +2873,7 @@ Element["onsolder" "" "TP14" "sr-nothing" 53.4500mm 59.8500mm 0.0000 0.0000 0 10
 
 	)
 
-Element["" "" "C12" "sr-c-4u7-0805-10v" 21.4000mm 70.5500mm 0.0000 0.0000 0 100 ""]
+Element["" "0805_sr.fp" "C12" "sr-c-4u7-0805-10v" 21.4000mm 70.5500mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2889,7 +2889,7 @@ Element["" "" "C12" "sr-c-4u7-0805-10v" 21.4000mm 70.5500mm 0.0000 0.0000 0 100 
 
 	)
 
-Element["" "" "C10" "sr-c-100n-0402-16v" 21.4000mm 69.0500mm 0.0000 0.0000 0 100 ""]
+Element["" "0402_sr.fp" "C10" "sr-c-100n-0402-16v" 21.4000mm 69.0500mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2905,7 +2905,7 @@ Element["" "" "C10" "sr-c-100n-0402-16v" 21.4000mm 69.0500mm 0.0000 0.0000 0 100
 
 	)
 
-Element["" "" "C8" "sr-c-100n-0402-16v" 10.7000mm 65.4500mm 0.0000 0.0000 3 100 ""]
+Element["" "0402_sr.fp" "C8" "sr-c-100n-0402-16v" 10.7000mm 65.4500mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2921,7 +2921,7 @@ Element["" "" "C8" "sr-c-100n-0402-16v" 10.7000mm 65.4500mm 0.0000 0.0000 3 100 
 
 	)
 
-Element["" "" "C6" "sr-c-100n-0402-16v" 14.3000mm 54.7000mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "C6" "sr-c-100n-0402-16v" 14.3000mm 54.7000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2937,7 +2937,7 @@ Element["" "" "C6" "sr-c-100n-0402-16v" 14.3000mm 54.7000mm 0.0000 0.0000 2 100 
 
 	)
 
-Element["" "" "C5" "sr-c-100n-0402-16v" 20.4500mm 54.7000mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "C5" "sr-c-100n-0402-16v" 20.4500mm 54.7000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2953,7 +2953,7 @@ Element["" "" "C5" "sr-c-100n-0402-16v" 20.4500mm 54.7000mm 0.0000 0.0000 2 100 
 
 	)
 
-Element["" "" "C16" "sr-c-1u-0603-16v" 26.0500mm 56.4500mm 0.0000 0.0000 3 100 ""]
+Element["" "0603_sr.fp" "C16" "sr-c-1u-0603-16v" 26.0500mm 56.4500mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2969,7 +2969,7 @@ Element["" "" "C16" "sr-c-1u-0603-16v" 26.0500mm 56.4500mm 0.0000 0.0000 3 100 "
 
 	)
 
-Element["" "" "C15" "sr-c-100n-0402-16v" 25.0500mm 59.7000mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "C15" "sr-c-100n-0402-16v" 25.0500mm 59.7000mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2985,7 +2985,7 @@ Element["" "" "C15" "sr-c-100n-0402-16v" 25.0500mm 59.7000mm 0.0000 0.0000 1 100
 
 	)
 
-Element["" "" "L5" "sr-fb-200m-1k-0402" 39.5000mm 69.9500mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "L5" "sr-fb-200m-1k-0402" 39.5000mm 69.9500mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "FERRITE_BEAD")
 	Attribute("manufacturer" "unknown")
@@ -3001,7 +3001,7 @@ Element["" "" "L5" "sr-fb-200m-1k-0402" 39.5000mm 69.9500mm 0.0000 0.0000 2 100 
 
 	)
 
-Element["" "" "L4" "sr-fb-200m-1k-0402" 37.6000mm 69.9500mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "L4" "sr-fb-200m-1k-0402" 37.6000mm 69.9500mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "FERRITE_BEAD")
 	Attribute("manufacturer" "unknown")
@@ -3017,7 +3017,7 @@ Element["" "" "L4" "sr-fb-200m-1k-0402" 37.6000mm 69.9500mm 0.0000 0.0000 2 100 
 
 	)
 
-Element["" "" "C14" "sr-c-100n-0402-16v" 35.7000mm 69.9500mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "C14" "sr-c-100n-0402-16v" 35.7000mm 69.9500mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3033,7 +3033,7 @@ Element["" "" "C14" "sr-c-100n-0402-16v" 35.7000mm 69.9500mm 0.0000 0.0000 2 100
 
 	)
 
-Element["" "" "C29" "sr-c-27p-0402-50v" 32.8500mm 63.3500mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "C29" "sr-c-27p-0402-50v" 32.8500mm 63.3500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3049,7 +3049,7 @@ Element["" "" "C29" "sr-c-27p-0402-50v" 32.8500mm 63.3500mm 0.0000 0.0000 1 100 
 
 	)
 
-Element["" "" "C30" "sr-c-27p-0402-50v" 25.0500mm 65.4000mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "C30" "sr-c-27p-0402-50v" 25.0500mm 65.4000mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3065,7 +3065,7 @@ Element["" "" "C30" "sr-c-27p-0402-50v" 25.0500mm 65.4000mm 0.0000 0.0000 1 100 
 
 	)
 
-Element["" "" "R17" "sr-r-100-0402" 25.0500mm 2500.00mil 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "R17" "sr-r-100-0402" 25.0500mm 2500.00mil 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3081,7 +3081,7 @@ Element["" "" "R17" "sr-r-100-0402" 25.0500mm 2500.00mil 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["" "" "Y1" "sr-xtal-abmm2-8.000mhz-e2-t" 28.9500mm 64.0000mm 0.0000 0.0000 2 100 ""]
+Element["" "ABMM2_sr.fp" "Y1" "sr-xtal-abmm2-8.000mhz-e2-t" 28.9500mm 64.0000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CRYSTAL")
 	Attribute("manufacturer" "unknown")
@@ -3099,7 +3099,7 @@ Element["" "" "Y1" "sr-xtal-abmm2-8.000mhz-e2-t" 28.9500mm 64.0000mm 0.0000 0.00
 
 	)
 
-Element["" "" "R15" "sr-r-4k7-0402" 33.7500mm 73.1500mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "R15" "sr-r-4k7-0402" 33.7500mm 73.1500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3115,7 +3115,7 @@ Element["" "" "R15" "sr-r-4k7-0402" 33.7500mm 73.1500mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["" "" "R14" "sr-r-4k7-0402" 30.7500mm 73.1500mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "R14" "sr-r-4k7-0402" 30.7500mm 73.1500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3131,7 +3131,7 @@ Element["" "" "R14" "sr-r-4k7-0402" 30.7500mm 73.1500mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["" "" "C25" "sr-c-1n-0402-50v" 32.7500mm 73.1500mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "C25" "sr-c-1n-0402-50v" 32.7500mm 73.1500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3147,7 +3147,7 @@ Element["" "" "C25" "sr-c-1n-0402-50v" 32.7500mm 73.1500mm 0.0000 0.0000 1 100 "
 
 	)
 
-Element["" "" "C24" "sr-c-1n-0402-50v" 29.7500mm 73.1500mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "C24" "sr-c-1n-0402-50v" 29.7500mm 73.1500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3163,7 +3163,7 @@ Element["" "" "C24" "sr-c-1n-0402-50v" 29.7500mm 73.1500mm 0.0000 0.0000 1 100 "
 
 	)
 
-Element["" "" "L10" "sr-fb-200m-1k-0402" 1250.00mil 73.1500mm 0.0000 0.0000 3 100 ""]
+Element["" "0402_sr.fp" "L10" "sr-fb-200m-1k-0402" 1250.00mil 73.1500mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "FERRITE_BEAD")
 	Attribute("manufacturer" "unknown")
@@ -3179,7 +3179,7 @@ Element["" "" "L10" "sr-fb-200m-1k-0402" 1250.00mil 73.1500mm 0.0000 0.0000 3 10
 
 	)
 
-Element["" "" "L9" "sr-fb-200m-1k-0402" 28.7500mm 73.1500mm 0.0000 0.0000 3 100 ""]
+Element["" "0402_sr.fp" "L9" "sr-fb-200m-1k-0402" 28.7500mm 73.1500mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "FERRITE_BEAD")
 	Attribute("manufacturer" "unknown")
@@ -3195,7 +3195,7 @@ Element["" "" "L9" "sr-fb-200m-1k-0402" 28.7500mm 73.1500mm 0.0000 0.0000 3 100 
 
 	)
 
-Element["" "" "C23" "sr-c-2u2-1206-50v" 37.1500mm 68.3000mm 0.0000 0.0000 2 100 ""]
+Element["" "1206_sr.fp" "C23" "sr-c-2u2-1206-50v" 37.1500mm 68.3000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3211,7 +3211,7 @@ Element["" "" "C23" "sr-c-2u2-1206-50v" 37.1500mm 68.3000mm 0.0000 0.0000 2 100 
 
 	)
 
-Element["" "" "L8" "sr-fb-200m-1k-0402" 35.8000mm 66.6500mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "L8" "sr-fb-200m-1k-0402" 35.8000mm 66.6500mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "FERRITE_BEAD")
 	Attribute("manufacturer" "unknown")
@@ -3227,7 +3227,7 @@ Element["" "" "L8" "sr-fb-200m-1k-0402" 35.8000mm 66.6500mm 0.0000 0.0000 2 100 
 
 	)
 
-Element["" "" "C22" "sr-c-1u-0603-16v" 34.9500mm 65.3500mm 0.0000 0.0000 2 100 ""]
+Element["" "0603_sr.fp" "C22" "sr-c-1u-0603-16v" 34.9500mm 65.3500mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3243,7 +3243,7 @@ Element["" "" "C22" "sr-c-1u-0603-16v" 34.9500mm 65.3500mm 0.0000 0.0000 2 100 "
 
 	)
 
-Element["" "" "L7" "sr-fb-200m-1k-0402" 32.8500mm 65.2500mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "L7" "sr-fb-200m-1k-0402" 32.8500mm 65.2500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "FERRITE_BEAD")
 	Attribute("manufacturer" "unknown")
@@ -3259,7 +3259,7 @@ Element["" "" "L7" "sr-fb-200m-1k-0402" 32.8500mm 65.2500mm 0.0000 0.0000 1 100 
 
 	)
 
-Element["" "" "R12" "sr-r-330-0402" 44.7000mm 70.1000mm 0.0000 0.0000 0 100 ""]
+Element["" "0402_sr.fp" "R12" "sr-r-330-0402" 44.7000mm 70.1000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3275,7 +3275,7 @@ Element["" "" "R12" "sr-r-330-0402" 44.7000mm 70.1000mm 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "" "DS6" "sr-led-red-0805" 44.7000mm 72.3500mm 0.0000 0.0000 1 100 ""]
+Element["" "0805_led_sr.fp" "DS6" "sr-led-red-0805" 44.7000mm 72.3500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -3294,7 +3294,7 @@ Element["" "" "DS6" "sr-led-red-0805" 44.7000mm 72.3500mm 0.0000 0.0000 1 100 ""
 
 	)
 
-Element["" "" "R1" "sr-r-330-0402" 42.7000mm 70.1000mm 0.0000 0.0000 0 100 ""]
+Element["" "0402_sr.fp" "R1" "sr-r-330-0402" 42.7000mm 70.1000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3310,7 +3310,7 @@ Element["" "" "R1" "sr-r-330-0402" 42.7000mm 70.1000mm 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "" "DS1" "sr-led-green-0805" 42.7000mm 72.3500mm 0.0000 0.0000 1 100 ""]
+Element["" "0805_led_sr.fp" "DS1" "sr-led-green-0805" 42.7000mm 72.3500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -3329,7 +3329,7 @@ Element["" "" "DS1" "sr-led-green-0805" 42.7000mm 72.3500mm 0.0000 0.0000 1 100 
 
 	)
 
-Element["" "" "R18" "sr-r-10k-0402" 53.1500mm 55.2000mm 0.0000 0.0000 3 100 ""]
+Element["" "0402_sr.fp" "R18" "sr-r-10k-0402" 53.1500mm 55.2000mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3345,7 +3345,7 @@ Element["" "" "R18" "sr-r-10k-0402" 53.1500mm 55.2000mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["" "" "R19" "sr-r-10k-0402" 56.1500mm 55.2000mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "R19" "sr-r-10k-0402" 56.1500mm 55.2000mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3361,7 +3361,7 @@ Element["" "" "R19" "sr-r-10k-0402" 56.1500mm 55.2000mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["" "" "R20" "sr-r-10k-0402" 55.1500mm 55.2000mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "R20" "sr-r-10k-0402" 55.1500mm 55.2000mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3377,7 +3377,7 @@ Element["" "" "R20" "sr-r-10k-0402" 55.1500mm 55.2000mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["" "" "C27" "sr-c-100n-0402-16v" 54.1500mm 55.2000mm 0.0000 0.0000 3 100 ""]
+Element["" "0402_sr.fp" "C27" "sr-c-100n-0402-16v" 54.1500mm 55.2000mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3393,7 +3393,7 @@ Element["" "" "C27" "sr-c-100n-0402-16v" 54.1500mm 55.2000mm 0.0000 0.0000 3 100
 
 	)
 
-Element["" "" "D5" "sr-d-bzx384c3v3" 45.2000mm 66.5000mm 0.0000 0.0000 0 100 ""]
+Element["" "SOD323_sr.fp" "D5" "sr-d-bzx384c3v3" 45.2000mm 66.5000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "DIODE")
 	Attribute("manufacturer" "unknown")
@@ -3414,7 +3414,7 @@ Element["" "" "D5" "sr-d-bzx384c3v3" 45.2000mm 66.5000mm 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "" "U1" "sr-ic-lmr14203" 49.0000mm 57.2000mm 0.0000 0.0000 2 100 ""]
+Element["" "SOT26_sr.fp" "U1" "sr-ic-lmr14203" 49.0000mm 57.2000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "REGULATOR")
 	Attribute("manufacturer" "unknown")
@@ -3436,7 +3436,7 @@ Element["" "" "U1" "sr-ic-lmr14203" 49.0000mm 57.2000mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "" "C50" "sr-c-220n-0402-16v" 52.4500mm 58.7000mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "C50" "sr-c-220n-0402-16v" 52.4500mm 58.7000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3452,7 +3452,7 @@ Element["" "" "C50" "sr-c-220n-0402-16v" 52.4500mm 58.7000mm 0.0000 0.0000 2 100
 
 	)
 
-Element["" "" "L12" "sr-l-68u-900ma" 50.4000mm 62.8000mm 0.0000 0.0000 1 100 ""]
+Element["" "SRN6045_sr.fp" "L12" "sr-l-68u-900ma" 50.4000mm 62.8000mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "INDUCTOR")
 	Attribute("manufacturer" "unknown")
@@ -3468,7 +3468,7 @@ Element["" "" "L12" "sr-l-68u-900ma" 50.4000mm 62.8000mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["" "" "L1" "sr-fb-200m-1k-0402" 48.0000mm 54.9500mm 0.0000 0.0000 0 100 ""]
+Element["" "0402_sr.fp" "L1" "sr-fb-200m-1k-0402" 48.0000mm 54.9500mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "FERRITE_BEAD")
 	Attribute("manufacturer" "unknown")
@@ -3484,7 +3484,7 @@ Element["" "" "L1" "sr-fb-200m-1k-0402" 48.0000mm 54.9500mm 0.0000 0.0000 0 100 
 
 	)
 
-Element["" "" "R57" "sr-r-10k-0402" 52.4500mm 57.7000mm 0.0000 0.0000 0 100 ""]
+Element["" "0402_sr.fp" "R57" "sr-r-10k-0402" 52.4500mm 57.7000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3500,7 +3500,7 @@ Element["" "" "R57" "sr-r-10k-0402" 52.4500mm 57.7000mm 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "" "C51" "sr-c-33n-0402-25v" 48.0000mm 66.8000mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "C51" "sr-c-33n-0402-25v" 48.0000mm 66.8000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3516,7 +3516,7 @@ Element["" "" "C51" "sr-c-33n-0402-25v" 48.0000mm 66.8000mm 0.0000 0.0000 2 100 
 
 	)
 
-Element["" "" "C52" "sr-c-22u-0805-6v3" 45.3000mm 64.5500mm 0.0000 0.0000 0 100 ""]
+Element["" "0805_sr.fp" "C52" "sr-c-22u-0805-6v3" 45.3000mm 64.5500mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3532,7 +3532,7 @@ Element["" "" "C52" "sr-c-22u-0805-6v3" 45.3000mm 64.5500mm 0.0000 0.0000 0 100 
 
 	)
 
-Element["" "" "D13" "sr-d-bat754c" 45.3000mm 59.9000mm 0.0000 0.0000 3 100 ""]
+Element["" "SOT23_sr.fp" "D13" "sr-d-bat754c" 45.3000mm 59.9000mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "DIODE")
 	Attribute("manufacturer" "unknown")
@@ -3549,7 +3549,7 @@ Element["" "" "D13" "sr-d-bat754c" 45.3000mm 59.9000mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["" "" "C4" "sr-c-22u-0805-6v3" 45.3000mm 62.5500mm 0.0000 0.0000 0 100 ""]
+Element["" "0805_sr.fp" "C4" "sr-c-22u-0805-6v3" 45.3000mm 62.5500mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3565,7 +3565,7 @@ Element["" "" "C4" "sr-c-22u-0805-6v3" 45.3000mm 62.5500mm 0.0000 0.0000 0 100 "
 
 	)
 
-Element["" "" "C3" "sr-c-2u2-1206-50v" 44.7000mm 55.6000mm 0.0000 0.0000 0 100 ""]
+Element["" "1206_sr.fp" "C3" "sr-c-2u2-1206-50v" 44.7000mm 55.6000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3581,7 +3581,7 @@ Element["" "" "C3" "sr-c-2u2-1206-50v" 44.7000mm 55.6000mm 0.0000 0.0000 0 100 "
 
 	)
 
-Element["" "" "C2" "sr-c-47n-0603-50v" 45.5000mm 57.5000mm 0.0000 0.0000 0 100 ""]
+Element["" "0603_sr.fp" "C2" "sr-c-47n-0603-50v" 45.5000mm 57.5000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3597,7 +3597,7 @@ Element["" "" "C2" "sr-c-47n-0603-50v" 45.5000mm 57.5000mm 0.0000 0.0000 0 100 "
 
 	)
 
-Element["" "" "R56" "sr-r-33k2-0402" 52.4500mm 56.7000mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "R56" "sr-r-33k2-0402" 52.4500mm 56.7000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3613,7 +3613,7 @@ Element["" "" "R56" "sr-r-33k2-0402" 52.4500mm 56.7000mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "" "C49" "sr-c-33n-0402-25v" 22.4000mm 54.7000mm 0.0000 0.0000 0 100 ""]
+Element["" "0402_sr.fp" "C49" "sr-c-33n-0402-25v" 22.4000mm 54.7000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3629,7 +3629,7 @@ Element["" "" "C49" "sr-c-33n-0402-25v" 22.4000mm 54.7000mm 0.0000 0.0000 0 100 
 
 	)
 
-Element["" "" "R4" "sr-r-330-0402" 10.7000mm 57.3000mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "R4" "sr-r-330-0402" 10.7000mm 57.3000mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3645,7 +3645,7 @@ Element["" "" "R4" "sr-r-330-0402" 10.7000mm 57.3000mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["" "" "R6" "sr-r-330-0402" 10.7000mm 55.4000mm 0.0000 0.0000 3 100 ""]
+Element["" "0402_sr.fp" "R6" "sr-r-330-0402" 10.7000mm 55.4000mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3661,7 +3661,7 @@ Element["" "" "R6" "sr-r-330-0402" 10.7000mm 55.4000mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["" "" "R7" "sr-r-330-0402" 10.7000mm 60.4500mm 0.0000 0.0000 3 100 ""]
+Element["" "0402_sr.fp" "R7" "sr-r-330-0402" 10.7000mm 60.4500mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3677,7 +3677,7 @@ Element["" "" "R7" "sr-r-330-0402" 10.7000mm 60.4500mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["" "" "R8" "sr-r-330-0402" 10.7000mm 62.3500mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "R8" "sr-r-330-0402" 10.7000mm 62.3500mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3693,7 +3693,7 @@ Element["" "" "R8" "sr-r-330-0402" 10.7000mm 62.3500mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["" "" "L2" "sr-fb-200m-1k-0402" 26.0500mm 59.0000mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "L2" "sr-fb-200m-1k-0402" 26.0500mm 59.0000mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "FERRITE_BEAD")
 	Attribute("manufacturer" "unknown")
@@ -3709,7 +3709,7 @@ Element["" "" "L2" "sr-fb-200m-1k-0402" 26.0500mm 59.0000mm 0.0000 0.0000 1 100 
 
 	)
 
-Element["" "" "D4" "sr-d-bat754s" 37.4000mm 56.1000mm 0.0000 0.0000 1 100 ""]
+Element["" "SOT23_sr.fp" "D4" "sr-d-bat754s" 37.4000mm 56.1000mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "DIODE")
 	Attribute("manufacturer" "unknown")
@@ -3726,7 +3726,7 @@ Element["" "" "D4" "sr-d-bat754s" 37.4000mm 56.1000mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["" "" "C41" "sr-c-33n-0402-25v" 34.6500mm 56.1000mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "C41" "sr-c-33n-0402-25v" 34.6500mm 56.1000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3742,7 +3742,7 @@ Element["" "" "C41" "sr-c-33n-0402-25v" 34.6500mm 56.1000mm 0.0000 0.0000 2 100 
 
 	)
 
-Element["" "" "R23" "sr-r-1k1-0402" 34.6500mm 57.1000mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "R23" "sr-r-1k1-0402" 34.6500mm 57.1000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3758,7 +3758,7 @@ Element["" "" "R23" "sr-r-1k1-0402" 34.6500mm 57.1000mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "" "R22" "sr-r-4k3-0402" 34.6500mm 55.1000mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "R22" "sr-r-4k3-0402" 34.6500mm 55.1000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3774,7 +3774,7 @@ Element["" "" "R22" "sr-r-4k3-0402" 34.6500mm 55.1000mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "" "C42" "sr-c-33n-0402-25v" 34.6500mm 62.7000mm 0.0000 0.0000 0 100 ""]
+Element["" "0402_sr.fp" "C42" "sr-c-33n-0402-25v" 34.6500mm 62.7000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3790,7 +3790,7 @@ Element["" "" "C42" "sr-c-33n-0402-25v" 34.6500mm 62.7000mm 0.0000 0.0000 0 100 
 
 	)
 
-Element["" "" "R26" "sr-r-1k1-0402" 34.6500mm 63.7000mm 0.0000 0.0000 0 100 ""]
+Element["" "0402_sr.fp" "R26" "sr-r-1k1-0402" 34.6500mm 63.7000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3806,7 +3806,7 @@ Element["" "" "R26" "sr-r-1k1-0402" 34.6500mm 63.7000mm 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "" "R25" "sr-r-4k3-0402" 34.6500mm 61.7000mm 0.0000 0.0000 0 100 ""]
+Element["" "0402_sr.fp" "R25" "sr-r-4k3-0402" 34.6500mm 61.7000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3822,7 +3822,7 @@ Element["" "" "R25" "sr-r-4k3-0402" 34.6500mm 61.7000mm 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "" "D6" "sr-d-bat754s" 37.4000mm 62.7000mm 0.0000 0.0000 1 100 ""]
+Element["" "SOT23_sr.fp" "D6" "sr-d-bat754s" 37.4000mm 62.7000mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "DIODE")
 	Attribute("manufacturer" "unknown")
@@ -3839,7 +3839,7 @@ Element["" "" "D6" "sr-d-bat754s" 37.4000mm 62.7000mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["" "" "D7" "sr-d-bat754s" 37.4000mm 59.4000mm 0.0000 0.0000 1 100 ""]
+Element["" "SOT23_sr.fp" "D7" "sr-d-bat754s" 37.4000mm 59.4000mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "DIODE")
 	Attribute("manufacturer" "unknown")
@@ -3856,7 +3856,7 @@ Element["" "" "D7" "sr-d-bat754s" 37.4000mm 59.4000mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["" "" "R33" "sr-r-4k3-0402" 34.6500mm 58.4000mm 0.0000 0.0000 0 100 ""]
+Element["" "0402_sr.fp" "R33" "sr-r-4k3-0402" 34.6500mm 58.4000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3872,7 +3872,7 @@ Element["" "" "R33" "sr-r-4k3-0402" 34.6500mm 58.4000mm 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "" "C43" "sr-c-33n-0402-25v" 34.6500mm 59.4000mm 0.0000 0.0000 0 100 ""]
+Element["" "0402_sr.fp" "C43" "sr-c-33n-0402-25v" 34.6500mm 59.4000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3888,7 +3888,7 @@ Element["" "" "C43" "sr-c-33n-0402-25v" 34.6500mm 59.4000mm 0.0000 0.0000 0 100 
 
 	)
 
-Element["" "" "R34" "sr-r-1k1-0402" 34.6500mm 60.4000mm 0.0000 0.0000 0 100 ""]
+Element["" "0402_sr.fp" "R34" "sr-r-1k1-0402" 34.6500mm 60.4000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3904,7 +3904,7 @@ Element["" "" "R34" "sr-r-1k1-0402" 34.6500mm 60.4000mm 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "" "D9" "sr-d-bat754s" 31.0500mm 56.1000mm 0.0000 0.0000 1 100 ""]
+Element["" "SOT23_sr.fp" "D9" "sr-d-bat754s" 31.0500mm 56.1000mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "DIODE")
 	Attribute("manufacturer" "unknown")
@@ -3921,7 +3921,7 @@ Element["" "" "D9" "sr-d-bat754s" 31.0500mm 56.1000mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["" "" "D8" "sr-d-bat754s" 31.0500mm 59.4000mm 0.0000 0.0000 1 100 ""]
+Element["" "SOT23_sr.fp" "D8" "sr-d-bat754s" 31.0500mm 59.4000mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "DIODE")
 	Attribute("manufacturer" "unknown")
@@ -3938,7 +3938,7 @@ Element["" "" "D8" "sr-d-bat754s" 31.0500mm 59.4000mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["" "" "R42" "sr-r-1k1-0402" 28.3000mm 60.4000mm 0.0000 0.0000 0 100 ""]
+Element["" "0402_sr.fp" "R42" "sr-r-1k1-0402" 28.3000mm 60.4000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3954,7 +3954,7 @@ Element["" "" "R42" "sr-r-1k1-0402" 28.3000mm 60.4000mm 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "" "R41" "sr-r-4k3-0402" 28.3000mm 58.4000mm 0.0000 0.0000 0 100 ""]
+Element["" "0402_sr.fp" "R41" "sr-r-4k3-0402" 28.3000mm 58.4000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3970,7 +3970,7 @@ Element["" "" "R41" "sr-r-4k3-0402" 28.3000mm 58.4000mm 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "" "C46" "sr-c-33n-0402-25v" 28.3000mm 59.4000mm 0.0000 0.0000 0 100 ""]
+Element["" "0402_sr.fp" "C46" "sr-c-33n-0402-25v" 28.3000mm 59.4000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3986,7 +3986,7 @@ Element["" "" "C46" "sr-c-33n-0402-25v" 28.3000mm 59.4000mm 0.0000 0.0000 0 100 
 
 	)
 
-Element["" "" "R49" "sr-r-4k3-0402" 28.3000mm 55.1000mm 0.0000 0.0000 0 100 ""]
+Element["" "0402_sr.fp" "R49" "sr-r-4k3-0402" 28.3000mm 55.1000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4002,7 +4002,7 @@ Element["" "" "R49" "sr-r-4k3-0402" 28.3000mm 55.1000mm 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "" "R50" "sr-r-1k1-0402" 28.3000mm 57.1000mm 0.0000 0.0000 0 100 ""]
+Element["" "0402_sr.fp" "R50" "sr-r-1k1-0402" 28.3000mm 57.1000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4018,7 +4018,7 @@ Element["" "" "R50" "sr-r-1k1-0402" 28.3000mm 57.1000mm 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "" "C47" "sr-c-33n-0402-25v" 28.3000mm 56.1000mm 0.0000 0.0000 0 100 ""]
+Element["" "0402_sr.fp" "C47" "sr-c-33n-0402-25v" 28.3000mm 56.1000mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -4034,7 +4034,7 @@ Element["" "" "C47" "sr-c-33n-0402-25v" 28.3000mm 56.1000mm 0.0000 0.0000 0 100 
 
 	)
 
-Element["" "" "C45" "sr-c-33n-0402-25v" 24.3000mm 54.7000mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "C45" "sr-c-33n-0402-25v" 24.3000mm 54.7000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -4050,7 +4050,7 @@ Element["" "" "C45" "sr-c-33n-0402-25v" 24.3000mm 54.7000mm 0.0000 0.0000 2 100 
 
 	)
 
-Element["" "" "R48" "sr-r-10k-0402" 18.6000mm 41.0500mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "R48" "sr-r-10k-0402" 18.6000mm 41.0500mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4066,7 +4066,7 @@ Element["" "" "R48" "sr-r-10k-0402" 18.6000mm 41.0500mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "" "R55" "sr-r-1k1-0402" 21.4500mm 41.3000mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "R55" "sr-r-1k1-0402" 21.4500mm 41.3000mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4082,7 +4082,7 @@ Element["" "" "R55" "sr-r-1k1-0402" 21.4500mm 41.3000mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["" "" "R31" "sr-r-1k-0402" 53.5500mm 41.0500mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "R31" "sr-r-1k-0402" 53.5500mm 41.0500mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4098,7 +4098,7 @@ Element["" "" "R31" "sr-r-1k-0402" 53.5500mm 41.0500mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "" "R28" "sr-r-1k-0402" 48.5000mm 41.3000mm 0.0000 0.0000 3 100 ""]
+Element["" "0402_sr.fp" "R28" "sr-r-1k-0402" 48.5000mm 41.3000mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4114,7 +4114,7 @@ Element["" "" "R28" "sr-r-1k-0402" 48.5000mm 41.3000mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["" "" "R44" "sr-r-1k-0402" 16.7000mm 41.0500mm 0.0000 0.0000 0 100 ""]
+Element["" "0402_sr.fp" "R44" "sr-r-1k-0402" 16.7000mm 41.0500mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4130,7 +4130,7 @@ Element["" "" "R44" "sr-r-1k-0402" 16.7000mm 41.0500mm 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "" "R47" "sr-r-1k-0402" 22.4500mm 41.3000mm 0.0000 0.0000 3 100 ""]
+Element["" "0402_sr.fp" "R47" "sr-r-1k-0402" 22.4500mm 41.3000mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4146,7 +4146,7 @@ Element["" "" "R47" "sr-r-1k-0402" 22.4500mm 41.3000mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["" "" "R52" "sr-r-1k-0402" 20.4500mm 41.3000mm 0.0000 0.0000 3 100 ""]
+Element["" "0402_sr.fp" "R52" "sr-r-1k-0402" 20.4500mm 41.3000mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4162,7 +4162,7 @@ Element["" "" "R52" "sr-r-1k-0402" 20.4500mm 41.3000mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["" "" "R39" "sr-r-1k1-0402" 51.5000mm 41.3000mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "R39" "sr-r-1k1-0402" 51.5000mm 41.3000mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4178,7 +4178,7 @@ Element["" "" "R39" "sr-r-1k1-0402" 51.5000mm 41.3000mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["" "" "R32" "sr-r-10k-0402" 49.5000mm 41.3000mm 0.0000 0.0000 1 100 ""]
+Element["" "0402_sr.fp" "R32" "sr-r-10k-0402" 49.5000mm 41.3000mm 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4194,7 +4194,7 @@ Element["" "" "R32" "sr-r-10k-0402" 49.5000mm 41.3000mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["" "" "R36" "sr-r-1k-0402" 50.5000mm 41.3000mm 0.0000 0.0000 3 100 ""]
+Element["" "0402_sr.fp" "R36" "sr-r-1k-0402" 50.5000mm 41.3000mm 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4210,7 +4210,7 @@ Element["" "" "R36" "sr-r-1k-0402" 50.5000mm 41.3000mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["" "" "R54" "sr-r-10k-0402" 40.8500mm 57.9000mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "R54" "sr-r-10k-0402" 40.8500mm 57.9000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4226,7 +4226,7 @@ Element["" "" "R54" "sr-r-10k-0402" 40.8500mm 57.9000mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "" "R45" "sr-r-4k7-0402" 40.8500mm 60.9000mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "R45" "sr-r-4k7-0402" 40.8500mm 60.9000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4242,7 +4242,7 @@ Element["" "" "R45" "sr-r-4k7-0402" 40.8500mm 60.9000mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "" "R40" "sr-r-4k7-0402" 40.8500mm 59.9000mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "R40" "sr-r-4k7-0402" 40.8500mm 59.9000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4258,7 +4258,7 @@ Element["" "" "R40" "sr-r-4k7-0402" 40.8500mm 59.9000mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "" "R46" "sr-r-1k-0402" 40.8500mm 61.9000mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "R46" "sr-r-1k-0402" 40.8500mm 61.9000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4274,7 +4274,7 @@ Element["" "" "R46" "sr-r-1k-0402" 40.8500mm 61.9000mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "" "R43" "sr-r-1k-0402" 40.8500mm 58.9000mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "R43" "sr-r-1k-0402" 40.8500mm 58.9000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4290,7 +4290,7 @@ Element["" "" "R43" "sr-r-1k-0402" 40.8500mm 58.9000mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "" "R24" "sr-r-4k7-0402" 40.8500mm 64.9000mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "R24" "sr-r-4k7-0402" 40.8500mm 64.9000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4306,7 +4306,7 @@ Element["" "" "R24" "sr-r-4k7-0402" 40.8500mm 64.9000mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "" "R29" "sr-r-4k7-0402" 40.8500mm 65.9000mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "R29" "sr-r-4k7-0402" 40.8500mm 65.9000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4322,7 +4322,7 @@ Element["" "" "R29" "sr-r-4k7-0402" 40.8500mm 65.9000mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "" "R30" "sr-r-1k-0402" 40.8500mm 66.9000mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "R30" "sr-r-1k-0402" 40.8500mm 66.9000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4338,7 +4338,7 @@ Element["" "" "R30" "sr-r-1k-0402" 40.8500mm 66.9000mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "" "R27" "sr-r-1k-0402" 40.8500mm 63.9000mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "R27" "sr-r-1k-0402" 40.8500mm 63.9000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4354,7 +4354,7 @@ Element["" "" "R27" "sr-r-1k-0402" 40.8500mm 63.9000mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "" "R38" "sr-r-10k-0402" 40.8500mm 62.9000mm 0.0000 0.0000 2 100 ""]
+Element["" "0402_sr.fp" "R38" "sr-r-10k-0402" 40.8500mm 62.9000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4370,7 +4370,7 @@ Element["" "" "R38" "sr-r-10k-0402" 40.8500mm 62.9000mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["onsolder" "" "TP39" "sr-nothing" 32.6000mm 44.2500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP39" "sr-nothing" 32.6000mm 44.2500mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -4382,7 +4382,7 @@ Element["onsolder" "" "TP39" "sr-nothing" 32.6000mm 44.2500mm 0.0000 0.0000 0 10
 
 	)
 
-Element["onsolder" "" "TP40" "sr-nothing" 34.1500mm 51.6000mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP40" "sr-nothing" 34.1500mm 51.6000mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
