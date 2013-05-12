@@ -906,19 +906,19 @@ Element["" "DO214AC_sr.fp" "D3" "sr-d-smaj15ca" 36.0000mm 20.0500mm 0.0000 0.000
 
 	)
 
-Element["" "0603_sr.fp" "R35" "sr-r-10k" 52.8000mm 19.2500mm 0.0000 0.0000 0 100 ""]
+Element["" "0603_sr.fp" "R35" "sr-r-10k" 52.0000mm 19.1000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-0.8000mm -0.0250mm -0.8000mm 0.0250mm 0.9500mm 0.5000mm 1.2500mm "2" "2" "square"]
-	Pad[0.8000mm -0.0250mm 0.8000mm 0.0250mm 0.9500mm 0.5000mm 1.2500mm "1" "1" "square"]
-	ElementLine [-1.5500mm -0.7500mm 1.5500mm -0.7500mm 0.2000mm]
+	Pad[0.8000mm -0.0250mm 0.8000mm 0.0250mm 0.9500mm 0.5000mm 1.2500mm "2" "2" "square"]
+	Pad[-0.8000mm -0.0250mm -0.8000mm 0.0250mm 0.9500mm 0.5000mm 1.2500mm "1" "1" "square"]
 	ElementLine [-1.5500mm 0.7500mm 1.5500mm 0.7500mm 0.2000mm]
-	ElementLine [-1.5500mm -0.7500mm -1.5500mm 0.7500mm 0.2000mm]
+	ElementLine [-1.5500mm -0.7500mm 1.5500mm -0.7500mm 0.2000mm]
 	ElementLine [1.5500mm -0.7500mm 1.5500mm 0.7500mm 0.2000mm]
+	ElementLine [-1.5500mm -0.7500mm -1.5500mm 0.7500mm 0.2000mm]
 
 	)
 
@@ -938,19 +938,19 @@ Element["" "1206_sr.fp" "R21" "sr-r-1k-1206" 32.1000mm 35.3000mm 0.0000 0.0000 0
 
 	)
 
-Element["" "1206_sr.fp" "R53" "sr-r-1k-1206" 500.00mil 18.8500mm 0.0000 0.0000 2 100 ""]
+Element["" "1206_sr.fp" "R53" "sr-r-1k-1206" 500.00mil 18.8500mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[1.5000mm -0.3250mm 1.5000mm 0.3250mm 1.1500mm 0.5000mm 1.4500mm "2" "2" "square"]
-	Pad[-1.5000mm -0.3250mm -1.5000mm 0.3250mm 1.1500mm 0.5000mm 1.4500mm "1" "1" "square"]
-	ElementLine [-2.3500mm 1.1500mm 2.3500mm 1.1500mm 0.2000mm]
+	Pad[-1.5000mm -0.3250mm -1.5000mm 0.3250mm 1.1500mm 0.5000mm 1.4500mm "2" "2" "square"]
+	Pad[1.5000mm -0.3250mm 1.5000mm 0.3250mm 1.1500mm 0.5000mm 1.4500mm "1" "1" "square"]
 	ElementLine [-2.3500mm -1.1500mm 2.3500mm -1.1500mm 0.2000mm]
-	ElementLine [2.3500mm -1.1500mm 2.3500mm 1.1500mm 0.2000mm]
+	ElementLine [-2.3500mm 1.1500mm 2.3500mm 1.1500mm 0.2000mm]
 	ElementLine [-2.3500mm -1.1500mm -2.3500mm 1.1500mm 0.2000mm]
+	ElementLine [2.3500mm -1.1500mm 2.3500mm 1.1500mm 0.2000mm]
 
 	)
 
@@ -1882,51 +1882,51 @@ Element["" "1206_sr.fp" "C34" "sr-c-10u-1206-16v" 41.5000mm 39.1000mm 0.0000 0.0
 
 	)
 
-Element["" "0603_sr.fp" "C48" "sr-c-100n-0603-50v" 22.9000mm 750.00mil 2.0000mm -0.6000mm 0 100 ""]
+Element["" "0603_sr.fp" "C48" "sr-c-100n-0603-50v" 24.0000mm 19.1000mm -2.0000mm 0.6000mm 2 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-0.8000mm -0.0250mm -0.8000mm 0.0250mm 0.9500mm 0.5000mm 1.2500mm "2" "2" "square"]
-	Pad[0.8000mm -0.0250mm 0.8000mm 0.0250mm 0.9500mm 0.5000mm 1.2500mm "1" "1" "square"]
-	ElementLine [-1.5500mm -0.7500mm 1.5500mm -0.7500mm 0.2000mm]
+	Pad[0.8000mm -0.0250mm 0.8000mm 0.0250mm 0.9500mm 0.5000mm 1.2500mm "2" "2" "square"]
+	Pad[-0.8000mm -0.0250mm -0.8000mm 0.0250mm 0.9500mm 0.5000mm 1.2500mm "1" "1" "square"]
 	ElementLine [-1.5500mm 0.7500mm 1.5500mm 0.7500mm 0.2000mm]
-	ElementLine [-1.5500mm -0.7500mm -1.5500mm 0.7500mm 0.2000mm]
+	ElementLine [-1.5500mm -0.7500mm 1.5500mm -0.7500mm 0.2000mm]
 	ElementLine [1.5500mm -0.7500mm 1.5500mm 0.7500mm 0.2000mm]
+	ElementLine [-1.5500mm -0.7500mm -1.5500mm 0.7500mm 0.2000mm]
 
 	)
 
-Element["" "0603_sr.fp" "R51" "sr-r-10k" 19.2500mm 750.00mil 0.0000 0.0000 0 100 ""]
+Element["" "0603_sr.fp" "R51" "sr-r-10k" 20.0000mm 19.1000mm 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-0.8000mm -0.0250mm -0.8000mm 0.0250mm 0.9500mm 0.5000mm 1.2500mm "2" "2" "square"]
-	Pad[0.8000mm -0.0250mm 0.8000mm 0.0250mm 0.9500mm 0.5000mm 1.2500mm "1" "1" "square"]
-	ElementLine [-1.5500mm -0.7500mm 1.5500mm -0.7500mm 0.2000mm]
+	Pad[0.8000mm -0.0250mm 0.8000mm 0.0250mm 0.9500mm 0.5000mm 1.2500mm "2" "2" "square"]
+	Pad[-0.8000mm -0.0250mm -0.8000mm 0.0250mm 0.9500mm 0.5000mm 1.2500mm "1" "1" "square"]
 	ElementLine [-1.5500mm 0.7500mm 1.5500mm 0.7500mm 0.2000mm]
-	ElementLine [-1.5500mm -0.7500mm -1.5500mm 0.7500mm 0.2000mm]
+	ElementLine [-1.5500mm -0.7500mm 1.5500mm -0.7500mm 0.2000mm]
 	ElementLine [1.5500mm -0.7500mm 1.5500mm 0.7500mm 0.2000mm]
+	ElementLine [-1.5500mm -0.7500mm -1.5500mm 0.7500mm 0.2000mm]
 
 	)
 
-Element["" "0603_sr.fp" "C44" "sr-c-100n-0603-50v" 49.1000mm 19.2500mm 1.3500mm -0.6000mm 0 100 ""]
+Element["" "0603_sr.fp" "C44" "sr-c-100n-0603-50v" 48.0000mm 19.1000mm -1.3500mm 0.6000mm 2 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-0.8000mm -0.0250mm -0.8000mm 0.0250mm 0.9500mm 0.5000mm 1.2500mm "2" "2" "square"]
-	Pad[0.8000mm -0.0250mm 0.8000mm 0.0250mm 0.9500mm 0.5000mm 1.2500mm "1" "1" "square"]
-	ElementLine [-1.5500mm -0.7500mm 1.5500mm -0.7500mm 0.2000mm]
+	Pad[0.8000mm -0.0250mm 0.8000mm 0.0250mm 0.9500mm 0.5000mm 1.2500mm "2" "2" "square"]
+	Pad[-0.8000mm -0.0250mm -0.8000mm 0.0250mm 0.9500mm 0.5000mm 1.2500mm "1" "1" "square"]
 	ElementLine [-1.5500mm 0.7500mm 1.5500mm 0.7500mm 0.2000mm]
-	ElementLine [-1.5500mm -0.7500mm -1.5500mm 0.7500mm 0.2000mm]
+	ElementLine [-1.5500mm -0.7500mm 1.5500mm -0.7500mm 0.2000mm]
 	ElementLine [1.5500mm -0.7500mm 1.5500mm 0.7500mm 0.2000mm]
+	ElementLine [-1.5500mm -0.7500mm -1.5500mm 0.7500mm 0.2000mm]
 
 	)
 
@@ -2477,7 +2477,7 @@ Element["" "0603_sr.fp" "C26" "sr-c-470n-0603-25v" 57.4500mm 55.7500mm 0.0000 0.
 
 	)
 
-Element["onsolder" "TP_sr.fp" "TP38" "sr-nothing" 20.4500mm 12.2500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP38" "sr-nothing" 1000.00mil 12.5000mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2489,7 +2489,7 @@ Element["onsolder" "TP_sr.fp" "TP38" "sr-nothing" 20.4500mm 12.2500mm 0.0000 0.0
 
 	)
 
-Element["onsolder" "TP_sr.fp" "TP28" "sr-nothing" 46.8000mm 12.2500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP28" "sr-nothing" 51.6000mm 12.5000mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2501,7 +2501,7 @@ Element["onsolder" "TP_sr.fp" "TP28" "sr-nothing" 46.8000mm 12.2500mm 0.0000 0.0
 
 	)
 
-Element["onsolder" "TP_sr.fp" "TP37" "sr-nothing" 25.5000mm 12.2500mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP37" "sr-nothing" 20.4000mm 12.5000mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -2513,7 +2513,7 @@ Element["onsolder" "TP_sr.fp" "TP37" "sr-nothing" 25.5000mm 12.2500mm 0.0000 0.0
 
 	)
 
-Element["onsolder" "TP_sr.fp" "TP27" "sr-nothing" 51.7000mm 12.4000mm 0.0000 0.0000 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP27" "sr-nothing" 46.6000mm 12.5000mm 0.0000 0.0000 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -4770,7 +4770,7 @@ NetList()
 		Connect("D11-1")
 		Connect("DS8-1")
 		Connect("DS8-3")
-		Connect("J6-1")
+		Connect("J6-2")
 		Connect("R25-2")
 		Connect("R35-1")
 		Connect("TP27-1")
@@ -4792,7 +4792,7 @@ NetList()
 	(
 		Connect("C44-2")
 		Connect("D11-2")
-		Connect("J6-2")
+		Connect("J6-1")
 		Connect("R33-2")
 		Connect("R35-2")
 		Connect("R37-2")
@@ -4854,7 +4854,7 @@ NetList()
 		Connect("D12-1")
 		Connect("DS9-1")
 		Connect("DS9-3")
-		Connect("J7-1")
+		Connect("J7-2")
 		Connect("R41-2")
 		Connect("R51-1")
 		Connect("TP37-1")
@@ -4876,7 +4876,7 @@ NetList()
 	(
 		Connect("C48-2")
 		Connect("D12-2")
-		Connect("J7-2")
+		Connect("J7-1")
 		Connect("R49-2")
 		Connect("R51-2")
 		Connect("R53-2")
