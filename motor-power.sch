@@ -816,7 +816,7 @@ value=M0ENa
 C 40900 45900 1 0 0 input-1.sym
 {
 T 40900 46100 5 10 0 0 0 0 1
-net=M0ENb:1
+net=M1ENb:1
 T 41500 46600 5 10 0 0 0 0 1
 device=none
 T 41400 46000 5 10 1 1 0 7 1
@@ -825,7 +825,7 @@ value=M1ENb
 C 40900 46400 1 0 0 input-1.sym
 {
 T 40900 46600 5 10 0 0 0 0 1
-net=M0ENa:1
+net=M1ENa:1
 T 41500 47100 5 10 0 0 0 0 1
 device=none
 T 41400 46500 5 10 1 1 0 7 1
@@ -834,7 +834,7 @@ value=M1ENa
 C 40900 51900 1 0 0 input-1.sym
 {
 T 40900 52100 5 10 0 0 0 0 1
-net=M0ENb:1
+net=M0PWM:1
 T 41500 52600 5 10 0 0 0 0 1
 device=none
 T 41400 52000 5 10 1 1 0 7 1
@@ -843,7 +843,7 @@ value=M0PWM
 C 40900 45400 1 0 0 input-1.sym
 {
 T 40900 45600 5 10 0 0 0 0 1
-net=M0ENb:1
+net=M1PWM:1
 T 41500 46100 5 10 0 0 0 0 1
 device=none
 T 41400 45500 5 10 1 1 0 7 1
