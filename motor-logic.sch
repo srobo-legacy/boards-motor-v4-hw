@@ -514,7 +514,7 @@ refdes=U2
 T 54500 57900 5 10 1 1 0 0 1
 value=sr-ic-adum3211arz
 T 54200 56300 5 10 0 0 0 0 1
-footprint=SOIC8_sr.fp
+footprint=SOIC8_bypass_sr.fp
 }
 C 54200 51500 1 0 0 ADUM32x1.sym
 {
@@ -525,7 +525,7 @@ refdes=U2
 T 54500 53100 5 10 1 1 0 0 1
 value=sr-ic-adum3211arz
 T 54200 51500 5 10 0 0 0 0 1
-footprint=SOIC8_sr.fp
+footprint=SOIC8_bypass_sr.fp
 }
 N 54200 52200 52300 52200 4
 {
@@ -1266,10 +1266,12 @@ refdes=R2
 T 55400 55600 5 10 1 1 0 0 1
 value=sr-nothing
 T 54800 55300 5 10 0 0 0 0 1
-footprint=0603_sr.fp
+graphical=1
+T 54800 55300 5 10 0 0 0 0 1
+comment=The footprint for this is included in the U2 footprint
 }
-N 54800 55400 54200 55400 4
-N 55700 55400 56300 55400 4
+N 54700 55400 54200 55400 4
+N 55800 55400 56300 55400 4
 C 54800 53600 1 0 0 resistor-iec-1.sym
 {
 T 55200 53950 5 10 0 0 0 0 1
@@ -1279,11 +1281,13 @@ refdes=R3
 T 55400 53900 5 10 1 1 0 0 1
 value=sr-nothing
 T 54800 53600 5 10 0 0 0 0 1
-footprint=0603_sr.fp
+graphical=1
+T 54800 53600 5 10 0 0 0 0 1
+comment=The footprint for this is included in the U2 footprint
 }
-N 54800 53700 54200 53700 4
+N 54700 53700 54200 53700 4
 N 54200 53700 54200 52600 4
-N 55700 53700 56300 53700 4
+N 55800 53700 56300 53700 4
 N 56300 53700 56300 52600 4
 C 54800 50900 1 0 0 resistor-iec-1.sym
 {
@@ -1294,11 +1298,13 @@ refdes=R11
 T 55400 51200 5 10 1 1 0 0 1
 value=sr-nothing
 T 54800 50900 5 10 0 0 0 0 1
-footprint=0603_sr.fp
+graphical=1
+T 54800 50900 5 10 0 0 0 0 1
+comment=The footprint for this is included in the U2 footprint
 }
-N 54800 51000 54200 51000 4
+N 54700 51000 54200 51000 4
 N 54200 51000 54200 52200 4
-N 55700 51000 56300 51000 4
+N 55800 51000 56300 51000 4
 N 56300 51000 56300 52200 4
 T 55600 54400 9 10 1 0 0 0 4
 If isolation is not required populate
@@ -2118,10 +2124,12 @@ refdes=D14
 T 55500 59400 5 10 1 1 0 0 1
 value=sr-nothing
 T 54800 58800 5 10 0 0 0 0 1
-footprint=SOD323_sr.fp
+graphical=1
+T 54800 58800 5 10 0 0 0 0 1
+comment=The footprint for this is included in the U2 footprint
 }
-N 55700 59000 56300 59000 4
-N 54800 59000 54200 59000 4
+N 55800 59000 56300 59000 4
+N 54700 59000 54200 59000 4
 N 66500 42800 66500 43100 4
 N 70900 43600 71100 43600 4
 N 70400 43200 70400 42400 4
