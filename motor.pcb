@@ -3,7 +3,7 @@
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20091103]
 
-PCB["" 200.0000mm 200.0000mm]
+PCB["" 70.0000mm 90.0000mm]
 
 Grid[196.850394 0.0000 0.0000 1]
 PolyArea[3100.006200]
@@ -1081,7 +1081,7 @@ Element["onsolder" "TP_sr.fp" "TP17" "sr-nothing" 37.7500mm 42.9000mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -1549,7 +1549,7 @@ Element["onsolder" "TP_sr.fp" "TP15" "sr-nothing" 55.7000mm 61.0500mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -1577,7 +1577,7 @@ Element["onsolder" "TP_sr.fp" "TP3" "sr-nothing" 45.7500mm 68.1500mm 0.0000 0.00
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -1615,7 +1615,7 @@ Element["onsolder" "TP_sr.fp" "TP4" "sr-nothing" 32.5500mm 29.3000mm 0.0000 0.00
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -1752,7 +1752,7 @@ Element["onsolder" "TP_sr.fp" "TP5" "sr-nothing" 60.1000mm 64.7000mm 0.0000 0.00
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2485,7 +2485,7 @@ Element["onsolder" "TP_sr.fp" "TP38" "sr-nothing" 20.4500mm 12.2500mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2497,7 +2497,7 @@ Element["onsolder" "TP_sr.fp" "TP28" "sr-nothing" 46.8000mm 12.2500mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2509,7 +2509,7 @@ Element["onsolder" "TP_sr.fp" "TP37" "sr-nothing" 25.5000mm 12.2500mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2521,7 +2521,7 @@ Element["onsolder" "TP_sr.fp" "TP27" "sr-nothing" 51.7000mm 12.4000mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2533,7 +2533,7 @@ Element["onsolder" "TP_sr.fp" "TP36" "sr-nothing" 29.3000mm 55.9500mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2545,7 +2545,7 @@ Element["onsolder" "TP_sr.fp" "TP35" "sr-nothing" 29.4500mm 58.5500mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2557,7 +2557,7 @@ Element["onsolder" "TP_sr.fp" "TP34" "sr-nothing" 39.1500mm 57.4000mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2569,7 +2569,7 @@ Element["onsolder" "TP_sr.fp" "TP33" "sr-nothing" 18.5500mm 57.0000mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2581,7 +2581,7 @@ Element["onsolder" "TP_sr.fp" "TP32" "sr-nothing" 39.3000mm 61.6500mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2593,7 +2593,7 @@ Element["onsolder" "TP_sr.fp" "TP31" "sr-nothing" 38.8500mm 59.6500mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2605,7 +2605,7 @@ Element["onsolder" "TP_sr.fp" "TP30" "sr-nothing" 14.9500mm 57.9500mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2617,7 +2617,7 @@ Element["onsolder" "TP_sr.fp" "TP29" "sr-nothing" 12.9000mm 59.0000mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2629,7 +2629,7 @@ Element["onsolder" "TP_sr.fp" "TP26" "sr-nothing" 36.0500mm 60.5000mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2641,7 +2641,7 @@ Element["onsolder" "TP_sr.fp" "TP25" "sr-nothing" 36.0000mm 62.9000mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2653,7 +2653,7 @@ Element["onsolder" "TP_sr.fp" "TP24" "sr-nothing" 39.3000mm 63.3000mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2665,7 +2665,7 @@ Element["onsolder" "TP_sr.fp" "TP23" "sr-nothing" 22.3000mm 59.1500mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2677,7 +2677,7 @@ Element["onsolder" "TP_sr.fp" "TP22" "sr-nothing" 39.8000mm 67.5500mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2689,7 +2689,7 @@ Element["onsolder" "TP_sr.fp" "TP21" "sr-nothing" 39.6500mm 65.4500mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2701,7 +2701,7 @@ Element["onsolder" "TP_sr.fp" "TP20" "sr-nothing" 22.0500mm 65.5500mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2713,7 +2713,7 @@ Element["onsolder" "TP_sr.fp" "TP19" "sr-nothing" 19.5000mm 65.6000mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2725,7 +2725,7 @@ Element["onsolder" "TP_sr.fp" "TP18" "sr-nothing" 36.0000mm 56.6500mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2737,7 +2737,7 @@ Element["onsolder" "TP_sr.fp" "TP16" "sr-nothing" 39.8000mm 30.9500mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2749,7 +2749,7 @@ Element["onsolder" "TP_sr.fp" "TP12" "sr-nothing" 50.5000mm 68.1000mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2761,7 +2761,7 @@ Element["onsolder" "TP_sr.fp" "TP11" "sr-nothing" 55.7000mm 73.6000mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2773,7 +2773,7 @@ Element["onsolder" "TP_sr.fp" "TP10" "sr-nothing" 57.0500mm 73.1500mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2785,7 +2785,7 @@ Element["onsolder" "TP_sr.fp" "TP13" "sr-nothing" 57.9000mm 66.3000mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2797,7 +2797,7 @@ Element["onsolder" "TP_sr.fp" "TP1" "sr-nothing" 60.7000mm 66.4000mm 0.0000 0.00
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2809,7 +2809,7 @@ Element["onsolder" "TP_sr.fp" "TP2" "sr-nothing" 61.2000mm 73.6500mm 0.0000 0.00
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2821,7 +2821,7 @@ Element["onsolder" "TP_sr.fp" "TP9" "sr-nothing" 40.2000mm 71.1500mm 0.0000 0.00
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2833,7 +2833,7 @@ Element["onsolder" "TP_sr.fp" "TP8" "sr-nothing" 37.0500mm 70.9500mm 0.0000 0.00
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2845,7 +2845,7 @@ Element["onsolder" "TP_sr.fp" "TP7" "sr-nothing" 39.1500mm 78.9000mm 0.0000 0.00
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2857,7 +2857,7 @@ Element["onsolder" "TP_sr.fp" "TP6" "sr-nothing" 37.4500mm 78.8000mm 0.0000 0.00
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -2869,7 +2869,7 @@ Element["onsolder" "TP_sr.fp" "TP14" "sr-nothing" 53.4500mm 59.8500mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -4378,7 +4378,7 @@ Element["onsolder" "TP_sr.fp" "TP39" "sr-nothing" 32.6000mm 44.2500mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 
@@ -4390,7 +4390,7 @@ Element["onsolder" "TP_sr.fp" "TP40" "sr-nothing" 34.1500mm 51.6000mm 0.0000 0.0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.0000 0.0000 0.0000 1.0000mm 0.5000mm 1.3000mm "1" "1" "onsolder,nopaste"]
-	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm -0 -360 0.2000mm]
+	ElementArc [0.0000 0.0000 0.8000mm 0.8000mm 0 360 0.2000mm]
 
 	)
 Layer(1 "top")
