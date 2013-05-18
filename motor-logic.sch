@@ -591,26 +591,26 @@ value=sr-nothing
 T 51700 49700 5 10 0 0 0 0 1
 footprint=TP_sr.fp
 }
-C 51700 49500 1 270 0 test-point.sym
-{
-T 52200 49400 5 10 1 1 0 1 1
-refdes=TP11
-T 52600 49100 5 10 0 0 270 0 1
-device=TESTPOINT
-T 51700 49500 5 10 0 0 0 0 1
-value=sr-nothing
-T 51700 49500 5 10 0 0 0 0 1
-footprint=TP_sr.fp
-}
 C 51700 49300 1 270 0 test-point.sym
 {
 T 52200 49200 5 10 1 1 0 1 1
-refdes=TP12
+refdes=TP11
 T 52600 48900 5 10 0 0 270 0 1
 device=TESTPOINT
 T 51700 49300 5 10 0 0 0 0 1
 value=sr-nothing
 T 51700 49300 5 10 0 0 0 0 1
+footprint=TP_sr.fp
+}
+C 51700 49100 1 270 0 test-point.sym
+{
+T 52200 49000 5 10 1 1 0 1 1
+refdes=TP12
+T 52600 48700 5 10 0 0 270 0 1
+device=TESTPOINT
+T 51700 49100 5 10 0 0 0 0 1
+value=sr-nothing
+T 51700 49100 5 10 0 0 0 0 1
 footprint=TP_sr.fp
 }
 C 59600 55800 1 0 0 STM32F100Cx-power.sym
