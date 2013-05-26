@@ -2289,7 +2289,7 @@ Element["" "camcon_38_4_sr.fp" "J3" "sr-cn-minicamcon4w" 26.0000mm 76.0000mm -0.
 
 	)
 
-Element["onsolder" "TP_sr.fp" "TP5" "sr-nothing" 54.1000mm 71.1000mm -1.2500mm -0.9000mm 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP5" "sr-nothing" 54.1000mm 71.1000mm -2.1000mm -0.9000mm 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -3097,7 +3097,7 @@ Element["onsolder" "TP_sr.fp" "TP12" "sr-nothing" 54.0000mm 67.0000mm 1.1500mm 0
 
 	)
 
-Element["onsolder" "TP_sr.fp" "TP10" "sr-nothing" 56.0000mm 72.0000mm -1.6000mm 2.4500mm 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP10" "sr-nothing" 56.0000mm 72.0000mm -0.7500mm -0.9000mm 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -3121,7 +3121,7 @@ Element["onsolder" "TP_sr.fp" "TP13" "sr-nothing" 42.0000mm 71.0000mm 1.1500mm 0
 
 	)
 
-Element["onsolder" "TP_sr.fp" "TP1" "sr-nothing" 60.0000mm 72.0000mm -1.1500mm -0.9000mm 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP1" "sr-nothing" 60.0000mm 72.0000mm -0.9500mm -0.9000mm 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -3133,7 +3133,7 @@ Element["onsolder" "TP_sr.fp" "TP1" "sr-nothing" 60.0000mm 72.0000mm -1.1500mm -
 
 	)
 
-Element["onsolder" "TP_sr.fp" "TP2" "sr-nothing" 52.0000mm 76.0000mm 1.1500mm 0.8000mm 0 100 "auto"]
+Element["onsolder" "TP_sr.fp" "TP2" "sr-nothing" 52.0000mm 76.0000mm -1.3000mm -0.9500mm 0 100 "auto"]
 (
 	Attribute("device" "TESTPOINT")
 	Attribute("manufacturer" "unknown")
@@ -7116,6 +7116,10 @@ Layer(6 "silk")
 	Line[10.9500mm 59.9500mm 11.2000mm 60.2000mm 0.2000mm 0.5000mm "clearline"]
 	Line[22.9000mm 58.4500mm 22.5500mm 58.4500mm 0.2000mm 0.5000mm "clearline"]
 	Line[22.5500mm 58.4500mm 21.8000mm 59.2000mm 0.2000mm 0.5000mm "clearline"]
+	Text[19.6000mm 70.4500mm 1 90 "3.3/5V" "clearline,onsolder"]
+	Text[23.4000mm 70.3500mm 1 90 "Dout ->" "clearline,onsolder"]
+	Text[27.2500mm 71.3500mm 1 88 "Din <-" "clearline,onsolder"]
+	Text[31.0000mm 72.1500mm 1 90 "GND" "clearline,onsolder"]
 	Polygon("clearpoly")
 	(
 		[42.0000mm 33.0010mm] [2362.20mil 33.0010mm] [2362.20mil 28.0000mm] [42.0000mm 28.0000mm] 
@@ -7842,6 +7846,8 @@ Layer(6 "silk")
 )
 Layer(7 "silk")
 (
+	Text[43.2853mm 18.1499mm 0 132 "+  1" "clearline"]
+	Text[25.8987mm 18.1257mm 0 132 "0  -" "clearline"]
 )
 NetList()
 (
