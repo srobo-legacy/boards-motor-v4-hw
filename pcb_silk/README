@@ -1,0 +1,15 @@
+I performed the following steps to get the inkscape design into PCB:
+
+ 1. Export to PS with text converted to outlines
+ 2. Convert to PCB with:
+    pstoedit -usebbfrominput -flat 0.001 -f pcb:-mm silk.ps silk.pcb
+ 3. Fix the holes in letters with PolyCombine:
+    http://www.seul.org/pipermail/geda-user/2011-May/053830.html
+ 4. Move the two parts of the SR logo to another layer using PCB
+ 5. Open the PCB file with a text editor and manually make the SR part of the logo into a hole in the circle
+ 6. Move all of the polygons to the lower silk layer using a text editor
+ 7. Import the PCB file into the main layout
+ 8. Mirror the silk so that it's the right way around
+ 9. Position it
+
+The moral of the story is get it right first time ;)
