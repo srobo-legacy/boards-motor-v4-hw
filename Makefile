@@ -30,4 +30,4 @@ bom.html: motor-logic.sch motor-power.sch
 	sr create_bom $^ $@
 
 clean:
-	-rm -f ${BOARD}-{top,bottom}.png bom.html ${BOARD}-schematic.pdf
+	-rm -f ${BOARD}-{top,bottom,both}.png bom.html ${BOARD}-schematic.pdf
