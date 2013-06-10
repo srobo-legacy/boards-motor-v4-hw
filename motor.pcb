@@ -4863,7 +4863,7 @@ Element["" "0402_sr.fp" "R27" "sr-r-1k-0402" 40.8000mm 63.1000mm -0.7500mm -0.45
 
 	)
 
-Element["" "0402_sr.fp" "R29" "sr-r-4k7-0402" 40.8000mm 65.5000mm -0.7000mm 0.7500mm 0 60 ""]
+Element["" "0402_sr.fp" "R29" "sr-r-4k7-0402" 40.8000mm 65.5000mm -0.7500mm -0.4500mm 0 60 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4879,7 +4879,7 @@ Element["" "0402_sr.fp" "R29" "sr-r-4k7-0402" 40.8000mm 65.5000mm -0.7000mm 0.75
 
 	)
 
-Element["" "0402_sr.fp" "R30" "sr-r-1k-0402" 40.8000mm 66.7000mm -0.7000mm -1.6500mm 0 60 ""]
+Element["" "0402_sr.fp" "R30" "sr-r-1k-0402" 40.8000mm 66.7000mm -0.6500mm -0.4500mm 0 60 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
