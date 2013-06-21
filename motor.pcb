@@ -1515,22 +1515,22 @@ Element["" "0805_split_led_sr.fp" "DS8" "sr-led-redblue-dual" 55.9000mm 18.2500m
 
 	)
 
-Element["" "0805_led_sr.fp" "DS7" "sr-led-redgreen-0805" 36.0500mm 35.4000mm -0.6000mm -0.6000mm 0 78 ""]
+Element["" "0805_led_sr.fp" "DS7" "sr-led-redgreen-0805" 36.0500mm 35.4000mm -0.7000mm -0.6000mm 0 78 ""]
 (
 	Attribute("device" "BI_LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-0.9000mm -0.1500mm -0.9000mm 0.1500mm 1.1500mm 0.5000mm 1.4500mm "2" "2" "square"]
-	Pad[0.9000mm -0.1500mm 0.9000mm 0.1500mm 1.1500mm 0.5000mm 1.4500mm "1" "1" "square"]
-	ElementLine [-1.7500mm -1.0000mm 1.7500mm -1.0000mm 0.2000mm]
+	Pad[0.9000mm -0.1500mm 0.9000mm 0.1500mm 1.1500mm 0.5000mm 1.4500mm "2" "2" "square"]
+	Pad[-0.9000mm -0.1500mm -0.9000mm 0.1500mm 1.1500mm 0.5000mm 1.4500mm "1" "1" "square"]
 	ElementLine [-1.7500mm 1.0000mm 1.7500mm 1.0000mm 0.2000mm]
-	ElementLine [-1.7500mm -1.0000mm -1.7500mm 1.0000mm 0.2000mm]
+	ElementLine [-1.7500mm -1.0000mm 1.7500mm -1.0000mm 0.2000mm]
 	ElementLine [1.7500mm -1.0000mm 1.7500mm 1.0000mm 0.2000mm]
-	ElementLine [-2.0000mm 0.0000 -1.8500mm 0.0000 0.3000mm]
-	ElementLine [0.1250mm -1.0000mm 0.1250mm 1.0000mm 0.2000mm]
-	ElementLine [-0.1750mm 0.0000 0.1250mm 0.0000 0.2000mm]
+	ElementLine [-1.7500mm -1.0000mm -1.7500mm 1.0000mm 0.2000mm]
+	ElementLine [1.8500mm 0.0000 2.0000mm 0.0000 0.3000mm]
+	ElementLine [-0.1250mm -1.0000mm -0.1250mm 1.0000mm 0.2000mm]
+	ElementLine [-0.1250mm 0.0000 0.1750mm 0.0000 0.2000mm]
 
 	)
 
@@ -8684,7 +8684,7 @@ NetList()
 	)
 	Net("unnamed_net61" "(unknown)")
 	(
-		Connect("DS7-2")
+		Connect("DS7-1")
 		Connect("R21-1")
 	)
 	Net("unnamed_net62" "(unknown)")
@@ -8708,7 +8708,7 @@ NetList()
 	)
 	Net("VBATT" "(unknown)")
 	(
-		Connect("DS7-1")
+		Connect("DS7-2")
 		Connect("L11-4")
 		Connect("Q2-1")
 		Connect("Q2-2")
