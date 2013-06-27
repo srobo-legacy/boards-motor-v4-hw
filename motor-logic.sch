@@ -620,7 +620,7 @@ device=STM32F100Rx
 T 59900 59400 5 10 1 1 0 0 1
 refdes=U4
 T 59900 59200 5 10 1 1 0 0 1
-value=sr-ic-stm32f100r6
+value=sr-ic-stm32f100r8
 T 59600 55800 5 10 0 0 0 0 1
 footprint=LQFP64_10_sr.fp
 }
