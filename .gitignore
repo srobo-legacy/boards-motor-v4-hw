@@ -2,4 +2,5 @@
 *-
 *.bak*
 *.new.pcb
+*.png
 motor-schematic.pdf
