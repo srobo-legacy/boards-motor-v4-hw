@@ -47,7 +47,7 @@ mcv4b.breakout.png       - Drawing showing positioning of breakout pips
 
 Assembly:
 mcv4b.assembly.gbr       - Assembly drawing showing component locations
-mcv4b.xy                 - XY Placement Data
+mcv4b.xy.csv             - XY Placement Data
 --------------------------------------------------------------------------------
 If there are any problems please contact Rich Barlow using the details at
 the top of this file.
