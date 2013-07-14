@@ -53,17 +53,17 @@ $PLIMMAX
  20
 297.0
   9
-$DIMEXE
- 40
-1.25
-  9
 $PINSBASE
  10
 70.0
  20
-118.0
+87.5
  30
 0.0
+  9
+$DIMEXE
+ 40
+1.25
   0
 ENDSEC
   0
@@ -929,11 +929,11 @@ AcDbLayerTableRecord
  70
 0
  62
-7
+5
   6
 CONTINUOUS
 370
-18
+0
 390
 F
   0
