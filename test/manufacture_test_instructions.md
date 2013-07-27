@@ -24,5 +24,6 @@ Board Test Procedure
 9. Press enter on the laptop
 10. The laptop must report that it has succesfully flashed the board
 11. Two red (C, E), two blue (D, F) and two red/blue bi-colour (G, H, I, J) LEDs must flash in turn. They will flash in the sequence C, D, E, F, G, H, I, J
+12. Turn off bench power supply and remove power/USB cables ready for the next board
 
 ![LED Locations](led_diagram.jpg)
