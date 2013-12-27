@@ -3,7 +3,7 @@ C 40000 40000 0 0 0 title-A1.sym
 T 66100 40800 9 30 1 0 0 0 1
 Motor Controller v4
 T 66100 40400 9 10 1 0 0 0 1
-motor-v4-hw.git/motor-logic.sch
+motor-v4-hw.git/motor-title.sch
 T 66500 40100 9 10 1 0 0 0 1
 1
 T 68200 40100 9 10 1 0 0 0 1
